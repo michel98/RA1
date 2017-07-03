@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{BBAA0893-213D-4D51-8AD0-EE5BA391351A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesEntities", "BussinesEntities\BussinesEntities.csproj", "{37B88F08-D945-423E-9FA1-E917315C30BE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{BBAA0893-213D-4D51-8AD0-EE5BA391351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBAA0893-213D-4D51-8AD0-EE5BA391351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBAA0893-213D-4D51-8AD0-EE5BA391351A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37B88F08-D945-423E-9FA1-E917315C30BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37B88F08-D945-423E-9FA1-E917315C30BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37B88F08-D945-423E-9FA1-E917315C30BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37B88F08-D945-423E-9FA1-E917315C30BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
