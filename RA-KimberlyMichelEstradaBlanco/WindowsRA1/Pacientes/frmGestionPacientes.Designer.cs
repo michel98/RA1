@@ -44,12 +44,12 @@
             this.dgvpacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvpacientes.Location = new System.Drawing.Point(25, 123);
             this.dgvpacientes.Name = "dgvpacientes";
-            this.dgvpacientes.Size = new System.Drawing.Size(455, 185);
+            this.dgvpacientes.Size = new System.Drawing.Size(490, 185);
             this.dgvpacientes.TabIndex = 0;
             // 
             // btnvisualizar
             // 
-            this.btnvisualizar.Location = new System.Drawing.Point(25, 26);
+            this.btnvisualizar.Location = new System.Drawing.Point(48, 26);
             this.btnvisualizar.Name = "btnvisualizar";
             this.btnvisualizar.Size = new System.Drawing.Size(131, 23);
             this.btnvisualizar.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btnbuscar
             // 
-            this.btnbuscar.Location = new System.Drawing.Point(306, 26);
+            this.btnbuscar.Location = new System.Drawing.Point(329, 26);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(174, 23);
             this.btnbuscar.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             // txtVerEstudios
             // 
-            this.txtVerEstudios.Location = new System.Drawing.Point(259, 28);
+            this.txtVerEstudios.Location = new System.Drawing.Point(282, 28);
             this.txtVerEstudios.Name = "txtVerEstudios";
             this.txtVerEstudios.Size = new System.Drawing.Size(41, 20);
             this.txtVerEstudios.TabIndex = 3;
@@ -75,7 +75,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(256, 9);
+            this.label1.Location = new System.Drawing.Point(279, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 13);
             this.label1.TabIndex = 4;
@@ -84,7 +84,7 @@
             // rdbresid
             // 
             this.rdbresid.AutoSize = true;
-            this.rdbresid.Location = new System.Drawing.Point(155, 66);
+            this.rdbresid.Location = new System.Drawing.Point(178, 66);
             this.rdbresid.Name = "rdbresid";
             this.rdbresid.Size = new System.Drawing.Size(118, 17);
             this.rdbresid.TabIndex = 5;
@@ -95,7 +95,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(80, 66);
+            this.label2.Location = new System.Drawing.Point(103, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 6;
@@ -104,7 +104,7 @@
             // rdbestudios
             // 
             this.rdbestudios.AutoSize = true;
-            this.rdbestudios.Location = new System.Drawing.Point(155, 89);
+            this.rdbestudios.Location = new System.Drawing.Point(178, 89);
             this.rdbestudios.Name = "rdbestudios";
             this.rdbestudios.Size = new System.Drawing.Size(159, 17);
             this.rdbestudios.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(508, 349);
+            this.ClientSize = new System.Drawing.Size(538, 349);
             this.Controls.Add(this.rdbestudios);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.rdbresid);

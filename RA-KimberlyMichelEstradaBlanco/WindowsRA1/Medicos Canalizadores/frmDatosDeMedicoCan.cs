@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsRA1.Pacientes
+namespace WindowsRA1.Medicos_Canalizadores
 {
-    public partial class frmestudiosdepacientes : Form
+    public partial class frmDatosDeMedicoCan : Form
     {
-        public frmestudiosdepacientes()
+        public frmDatosDeMedicoCan()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
