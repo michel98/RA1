@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsRA1.Pacientes
 {
-    public partial class frmestudiosdepacientes : Form
+    public partial class frmdatosmedicos : Form
     {
-        public frmestudiosdepacientes()
+        public frmdatosmedicos()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void frmdatosmedicos_Load(object sender, EventArgs e)
         {
 
         }

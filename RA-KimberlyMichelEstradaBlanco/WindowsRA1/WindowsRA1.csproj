@@ -78,6 +78,12 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Pacientes\frmdatosmedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pacientes\frmdatosmedicos.Designer.cs">
+      <DependentUpon>frmdatosmedicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pacientes\frmestudiosdepacientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recepcion\frmRecepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmRecepcion.Designer.cs">
+      <DependentUpon>frmRecepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\frmservicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmservicios.Designer.cs">
+      <DependentUpon>frmservicios.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Estudios\frmEstudiosRF01.resx">
       <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Medicos\FrmRegistrar.resx">
       <DependentUpon>FrmRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pacientes\frmdatosmedicos.resx">
+      <DependentUpon>frmdatosmedicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pacientes\frmestudiosdepacientes.resx">
       <DependentUpon>frmestudiosdepacientes.cs</DependentUpon>
@@ -122,6 +143,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Recepcion\frmRecepcion.resx">
+      <DependentUpon>frmRecepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\frmservicios.resx">
+      <DependentUpon>frmservicios.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="obj\Debug\CoreCompileInputs.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Properties\Settings.settings">

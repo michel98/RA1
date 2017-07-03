@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsRA1.Pacientes
+namespace WindowsRA1.Recepcion
 {
-    public partial class frmestudiosdepacientes : Form
+    public partial class frmRecepcion : Form
     {
-        public frmestudiosdepacientes()
+        public frmRecepcion()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void frmRecepcion_Load(object sender, EventArgs e)
         {
 
         }
