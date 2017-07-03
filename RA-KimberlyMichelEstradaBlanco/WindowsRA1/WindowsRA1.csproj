@@ -57,12 +57,6 @@
     <Compile Include="Estudios\frmModificarEstudio.Designer.cs">
       <DependentUpon>frmModificarEstudio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estudios\frmNuevoEstudio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Estudios\frmNuevoEstudio.Designer.cs">
-      <DependentUpon>frmNuevoEstudio.cs</DependentUpon>
-    </Compile>
     <Compile Include="Medicos\FrmGestionDeMedicos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,9 +115,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Estudios\frmModificarEstudio.resx">
       <DependentUpon>frmModificarEstudio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Estudios\frmNuevoEstudio.resx">
-      <DependentUpon>frmNuevoEstudio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Medicos\FrmGestionDeMedicos.resx">
       <DependentUpon>FrmGestionDeMedicos.cs</DependentUpon>
