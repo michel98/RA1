@@ -28,61 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dgvMedicosEstudios = new System.Windows.Forms.DataGridView();
+            this.btnVisualizarMed = new System.Windows.Forms.Button();
+            this.btnRegistrarMed = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.txtIdMod = new System.Windows.Forms.TextBox();
             this.ID = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosEstudios)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvMedicosEstudios
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 163);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(414, 159);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvMedicosEstudios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMedicosEstudios.Location = new System.Drawing.Point(10, 78);
+            this.dgvMedicosEstudios.Name = "dgvMedicosEstudios";
+            this.dgvMedicosEstudios.Size = new System.Drawing.Size(386, 159);
+            this.dgvMedicosEstudios.TabIndex = 0;
             // 
-            // button1
+            // btnVisualizarMed
             // 
-            this.button1.Location = new System.Drawing.Point(12, 61);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Visualizar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnVisualizarMed.Location = new System.Drawing.Point(12, 31);
+            this.btnVisualizarMed.Name = "btnVisualizarMed";
+            this.btnVisualizarMed.Size = new System.Drawing.Size(75, 23);
+            this.btnVisualizarMed.TabIndex = 1;
+            this.btnVisualizarMed.Text = "Visualizar";
+            this.btnVisualizarMed.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnRegistrarMed
             // 
-            this.button2.Location = new System.Drawing.Point(125, 61);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Registrar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRegistrarMed.Location = new System.Drawing.Point(125, 31);
+            this.btnRegistrarMed.Name = "btnRegistrarMed";
+            this.btnRegistrarMed.Size = new System.Drawing.Size(75, 23);
+            this.btnRegistrarMed.TabIndex = 2;
+            this.btnRegistrarMed.Text = "Registrar";
+            this.btnRegistrarMed.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnModificar
             // 
-            this.button3.Location = new System.Drawing.Point(234, 61);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Modificar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnModificar.Location = new System.Drawing.Point(321, 33);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 3;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtIdMod
             // 
-            this.textBox1.Location = new System.Drawing.Point(240, 124);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(75, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtIdMod.Location = new System.Drawing.Point(259, 35);
+            this.txtIdMod.Name = "txtIdMod";
+            this.txtIdMod.Size = new System.Drawing.Size(46, 20);
+            this.txtIdMod.TabIndex = 4;
             // 
             // ID
             // 
             this.ID.AutoSize = true;
-            this.ID.Location = new System.Drawing.Point(237, 98);
+            this.ID.Location = new System.Drawing.Point(256, 18);
             this.ID.Name = "ID";
             this.ID.Size = new System.Drawing.Size(72, 13);
             this.ID.TabIndex = 5;
@@ -92,16 +92,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 361);
+            this.ClientSize = new System.Drawing.Size(410, 258);
             this.Controls.Add(this.ID);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txtIdMod);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnRegistrarMed);
+            this.Controls.Add(this.btnVisualizarMed);
+            this.Controls.Add(this.dgvMedicosEstudios);
             this.Name = "FrmGestionDeMedicos";
-            this.Text = "FrmGestionDeMedicos";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Gestión de Médicos del centro de estudios";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosEstudios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,11 +109,11 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView dgvMedicosEstudios;
+        private System.Windows.Forms.Button btnVisualizarMed;
+        private System.Windows.Forms.Button btnRegistrarMed;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.TextBox txtIdMod;
         private System.Windows.Forms.Label ID;
     }
 }
