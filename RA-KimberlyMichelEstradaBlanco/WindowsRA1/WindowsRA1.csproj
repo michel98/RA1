@@ -51,6 +51,18 @@
     <Compile Include="frmEstudiosRF01.Designer.cs">
       <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmModificarEstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarEstudio.Designer.cs">
+      <DependentUpon>frmModificarEstudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNuevoEstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevoEstudio.Designer.cs">
+      <DependentUpon>frmNuevoEstudio.cs</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -58,6 +70,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEstudiosRF01.resx">
       <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarEstudio.resx">
+      <DependentUpon>frmModificarEstudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoEstudio.resx">
+      <DependentUpon>frmNuevoEstudio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
