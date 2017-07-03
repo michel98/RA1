@@ -41,6 +41,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnaceptar = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -112,7 +114,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(117, 22);
+            this.textBox1.Location = new System.Drawing.Point(117, 28);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 7;
@@ -161,12 +163,30 @@
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(229, 30);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(21, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "ID ";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(256, 27);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(45, 20);
+            this.textBox4.TabIndex = 14;
+            // 
             // frmModificarEstudio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(313, 271);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.btnaceptar);
             this.Controls.Add(this.comboBox1);
@@ -202,5 +222,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnaceptar;
         private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
