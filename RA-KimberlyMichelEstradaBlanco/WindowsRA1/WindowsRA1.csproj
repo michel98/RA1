@@ -104,6 +104,18 @@
     <Compile Include="Recepcion\caja de cobro\cobros.Designer.cs">
       <DependentUpon>cobros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Recepcion\caja de cobro\frmCobroDelPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\caja de cobro\frmCobroDelPaciente.Designer.cs">
+      <DependentUpon>frmCobroDelPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\caja de cobro\frmImprimirPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\caja de cobro\frmImprimirPago.Designer.cs">
+      <DependentUpon>frmImprimirPago.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recepcion\frmRecepcion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +163,12 @@
     </Compile>
     <EmbeddedResource Include="Recepcion\caja de cobro\cobros.resx">
       <DependentUpon>cobros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\caja de cobro\frmCobroDelPaciente.resx">
+      <DependentUpon>frmCobroDelPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\caja de cobro\frmImprimirPago.resx">
+      <DependentUpon>frmImprimirPago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Recepcion\frmRecepcion.resx">
       <DependentUpon>frmRecepcion.cs</DependentUpon>

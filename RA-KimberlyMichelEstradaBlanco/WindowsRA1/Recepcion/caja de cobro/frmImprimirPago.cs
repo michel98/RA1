@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsRA1.Recepcion.caja_de_cobro
 {
-    public partial class frmCobros : Form
+    public partial class frmImprimirPago : Form
     {
-        public frmCobros()
+        public frmImprimirPago()
         {
             InitializeComponent();
         }
