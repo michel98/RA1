@@ -116,11 +116,11 @@
     <Compile Include="Recepcion\caja de cobro\frmImprimirPago.Designer.cs">
       <DependentUpon>frmImprimirPago.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recepcion\frmGeneradorDeReportes.cs">
+    <Compile Include="Recepcion\Gestion de usuarios\frmGestionUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recepcion\frmGeneradorDeReportes.Designer.cs">
-      <DependentUpon>frmGeneradorDeReportes.cs</DependentUpon>
+    <Compile Include="Recepcion\Gestion de usuarios\frmGestionUsuarios.Designer.cs">
+      <DependentUpon>frmGestionUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Recepcion\frmImprimirDiagnostico.cs">
       <SubType>Form</SubType>
@@ -157,6 +157,12 @@
     </Compile>
     <Compile Include="Recepcion\frmVisualizarServiciosMedico.Designer.cs">
       <DependentUpon>frmVisualizarServiciosMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\Gestion de usuarios\frmModificarAgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\Gestion de usuarios\frmModificarAgregarUsuario.Designer.cs">
+      <DependentUpon>frmModificarAgregarUsuario.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Estudios\frmEstudiosRF01.resx">
       <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
@@ -200,6 +206,9 @@
     <EmbeddedResource Include="Recepcion\caja de cobro\frmImprimirPago.resx">
       <DependentUpon>frmImprimirPago.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\Gestion de usuarios\frmGestionUsuarios.resx">
+      <DependentUpon>frmGestionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcion\frmImprimirDiagnostico.resx">
       <DependentUpon>frmImprimirDiagnostico.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,6 +226,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Recepcion\frmVisualizarServiciosMedico.resx">
       <DependentUpon>frmVisualizarServiciosMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\Gestion de usuarios\frmModificarAgregarUsuario.resx">
+      <DependentUpon>frmModificarAgregarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="obj\Debug\CoreCompileInputs.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />

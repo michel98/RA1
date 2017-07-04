@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtCargo = new System.Windows.Forms.TextBox();
+            this.btnAceptarImpresion = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -93,7 +94,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(15, 82);
+            this.textBox2.Location = new System.Drawing.Point(15, 72);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(288, 20);
             this.textBox2.TabIndex = 6;
@@ -117,7 +118,7 @@
             // 
             // txtEspecialidad
             // 
-            this.txtEspecialidad.Location = new System.Drawing.Point(85, 115);
+            this.txtEspecialidad.Location = new System.Drawing.Point(85, 98);
             this.txtEspecialidad.Name = "txtEspecialidad";
             this.txtEspecialidad.Size = new System.Drawing.Size(218, 20);
             this.txtEspecialidad.TabIndex = 9;
@@ -125,7 +126,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 118);
+            this.label5.Location = new System.Drawing.Point(12, 101);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 10;
@@ -134,7 +135,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 140);
+            this.label6.Location = new System.Drawing.Point(12, 123);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 11;
@@ -142,16 +143,26 @@
             // 
             // txtCargo
             // 
-            this.txtCargo.Location = new System.Drawing.Point(85, 137);
+            this.txtCargo.Location = new System.Drawing.Point(85, 120);
             this.txtCargo.Name = "txtCargo";
             this.txtCargo.Size = new System.Drawing.Size(218, 20);
             this.txtCargo.TabIndex = 12;
+            // 
+            // btnAceptarImpresion
+            // 
+            this.btnAceptarImpresion.Location = new System.Drawing.Point(286, 320);
+            this.btnAceptarImpresion.Name = "btnAceptarImpresion";
+            this.btnAceptarImpresion.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptarImpresion.TabIndex = 13;
+            this.btnAceptarImpresion.Text = "Aceptar";
+            this.btnAceptarImpresion.UseVisualStyleBackColor = true;
             // 
             // frmImprimirDiagnostico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 355);
+            this.Controls.Add(this.btnAceptarImpresion);
             this.Controls.Add(this.txtCargo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -187,5 +198,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtCargo;
+        private System.Windows.Forms.Button btnAceptarImpresion;
     }
 }

@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtserv = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -42,6 +44,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.txtCedMedCan = new System.Windows.Forms.TextBox();
             this.txtApellidoMedCan = new System.Windows.Forms.TextBox();
             this.txtNombreMedCan = new System.Windows.Forms.TextBox();
@@ -49,6 +53,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.cboArea = new System.Windows.Forms.ComboBox();
             this.txtCedulaMedes = new System.Windows.Forms.TextBox();
             this.txtEspecialidadMedes = new System.Windows.Forms.TextBox();
@@ -73,12 +79,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -122,6 +122,22 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Pacientes";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(113, 19);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(44, 20);
+            this.textBox6.TabIndex = 13;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(8, 19);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(63, 13);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "ID Paciente";
             // 
             // textBox5
             // 
@@ -222,6 +238,22 @@
             this.groupBox2.Text = "Medico Canalizador";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(127, 14);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(44, 20);
+            this.textBox8.TabIndex = 15;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(10, 19);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(114, 13);
+            this.label21.TabIndex = 13;
+            this.label21.Text = "ID Médico Canalizador";
+            // 
             // txtCedMedCan
             // 
             this.txtCedMedCan.Location = new System.Drawing.Point(127, 92);
@@ -290,6 +322,22 @@
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Medico de estudios";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(127, 19);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(44, 20);
+            this.textBox7.TabIndex = 14;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(8, 21);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(113, 13);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "ID Médico de estudios";
             // 
             // cboArea
             // 
@@ -487,6 +535,8 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(403, 300);
             this.comboBox1.Name = "comboBox1";
@@ -510,54 +560,6 @@
             this.label18.Size = new System.Drawing.Size(41, 13);
             this.label18.TabIndex = 15;
             this.label18.Text = "label18";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(8, 21);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(113, 13);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "ID Médico de estudios";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(8, 19);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(63, 13);
-            this.label20.TabIndex = 12;
-            this.label20.Text = "ID Paciente";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(10, 19);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(114, 13);
-            this.label21.TabIndex = 13;
-            this.label21.Text = "ID Médico Canalizador";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(113, 19);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(44, 20);
-            this.textBox6.TabIndex = 13;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(127, 19);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(44, 20);
-            this.textBox7.TabIndex = 14;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(127, 14);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(44, 20);
-            this.textBox8.TabIndex = 15;
             // 
             // frmservicios
             // 

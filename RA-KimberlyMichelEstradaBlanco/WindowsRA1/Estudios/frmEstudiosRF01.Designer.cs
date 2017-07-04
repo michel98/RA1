@@ -55,6 +55,7 @@
             // 
             // cboEstudios
             // 
+            this.cboEstudios.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboEstudios.FormattingEnabled = true;
             this.cboEstudios.Location = new System.Drawing.Point(76, 51);
             this.cboEstudios.Name = "cboEstudios";

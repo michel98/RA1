@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsRA1.Recepcion
+namespace WindowsRA1.Recepcion.Gestion_de_usuarios
 {
-    public partial class frmGeneradorDeReportes : Form
+    public partial class frmModificarAgregarUsuario : Form
     {
-        public frmGeneradorDeReportes()
+        public frmModificarAgregarUsuario()
         {
             InitializeComponent();
         }
