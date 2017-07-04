@@ -116,17 +116,47 @@
     <Compile Include="Recepcion\caja de cobro\frmImprimirPago.Designer.cs">
       <DependentUpon>frmImprimirPago.cs</DependentUpon>
     </Compile>
+    <Compile Include="Recepcion\frmGeneradorDeReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmGeneradorDeReportes.Designer.cs">
+      <DependentUpon>frmGeneradorDeReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\frmImprimirDiagnostico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmImprimirDiagnostico.Designer.cs">
+      <DependentUpon>frmImprimirDiagnostico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recepcion\frmRecepcion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Recepcion\frmRecepcion.Designer.cs">
       <DependentUpon>frmRecepcion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Recepcion\frmServicioDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmServicioDetalle.Designer.cs">
+      <DependentUpon>frmServicioDetalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recepcion\frmservicios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Recepcion\frmservicios.Designer.cs">
       <DependentUpon>frmservicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\frmServiciosAtendidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmServiciosAtendidos.Designer.cs">
+      <DependentUpon>frmServiciosAtendidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\frmVisualizarServiciosMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion\frmVisualizarServiciosMedico.Designer.cs">
+      <DependentUpon>frmVisualizarServiciosMedico.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Estudios\frmEstudiosRF01.resx">
       <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
@@ -170,11 +200,23 @@
     <EmbeddedResource Include="Recepcion\caja de cobro\frmImprimirPago.resx">
       <DependentUpon>frmImprimirPago.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\frmImprimirDiagnostico.resx">
+      <DependentUpon>frmImprimirDiagnostico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcion\frmRecepcion.resx">
       <DependentUpon>frmRecepcion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\frmServicioDetalle.resx">
+      <DependentUpon>frmServicioDetalle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcion\frmservicios.resx">
       <DependentUpon>frmservicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\frmServiciosAtendidos.resx">
+      <DependentUpon>frmServiciosAtendidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion\frmVisualizarServiciosMedico.resx">
+      <DependentUpon>frmVisualizarServiciosMedico.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="obj\Debug\CoreCompileInputs.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
