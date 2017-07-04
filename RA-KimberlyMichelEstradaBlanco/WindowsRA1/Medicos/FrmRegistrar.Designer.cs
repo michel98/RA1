@@ -65,7 +65,6 @@
             // cboArea
             // 
             this.cboArea.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboArea.Enabled = false;
             this.cboArea.FormattingEnabled = true;
             this.cboArea.Items.AddRange(new object[] {
             "Tomografía",

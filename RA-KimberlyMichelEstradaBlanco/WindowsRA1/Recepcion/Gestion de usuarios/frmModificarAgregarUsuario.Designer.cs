@@ -100,7 +100,6 @@
             // cboFuncion
             // 
             this.cboFuncion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboFuncion.Enabled = false;
             this.cboFuncion.FormattingEnabled = true;
             this.cboFuncion.Items.AddRange(new object[] {
             "Administrador",

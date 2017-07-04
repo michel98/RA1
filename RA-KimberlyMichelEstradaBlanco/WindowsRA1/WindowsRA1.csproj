@@ -249,5 +249,15 @@
     <Folder Include="bin\Debug\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{bbaa0893-213d-4d51-8ad0-ee5ba391351a}</Project>
+      <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BussinesEntities\BussinesEntities.csproj">
+      <Project>{7e7bb139-6065-48b3-9482-8c79a62dfc2b}</Project>
+      <Name>BussinesEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,6 +9,7 @@ namespace BussinesEntities
     public class EstudiosRF01
     {
 
+        private string Id { get; set; }
         private string Nombre { get; set; }
         private string Descripcion { get; set; }
         private string Categoría { get; set; }
@@ -16,8 +17,9 @@ namespace BussinesEntities
         private bool Estado { get; set; }
 
 
-        public EstudiosRF01(string nombre,string descripcion,string categoria,double costo,bool estado)
+        public EstudiosRF01(string id, string nombre,string descripcion,string categoria,double costo,bool estado)
         {
+            Id = id;
             Nombre = nombre;
             Descripcion = descripcion;
             Categoría = categoria;

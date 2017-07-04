@@ -135,6 +135,7 @@
             // 
             // cboCategoria
             // 
+            this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FormattingEnabled = true;
             this.cboCategoria.Items.AddRange(new object[] {
             "Tomografía",
@@ -153,6 +154,7 @@
             this.btnaceptar.TabIndex = 11;
             this.btnaceptar.Text = "Aceptar";
             this.btnaceptar.UseVisualStyleBackColor = true;
+            this.btnaceptar.Click += new System.EventHandler(this.btnaceptar_Click);
             // 
             // btncancelar
             // 
@@ -162,6 +164,7 @@
             this.btncancelar.TabIndex = 12;
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // label6
             // 
@@ -202,6 +205,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmModificarEstudio";
             this.Text = "Modificar Estudio";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmModificarEstudio_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

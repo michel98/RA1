@@ -42,6 +42,7 @@
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Agregar nuevo estudio";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -51,7 +52,6 @@
             this.btnModificar.TabIndex = 1;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.button2_Click);
             // 
             // cboEstudios
             // 
@@ -61,6 +61,7 @@
             this.cboEstudios.Name = "cboEstudios";
             this.cboEstudios.Size = new System.Drawing.Size(352, 21);
             this.cboEstudios.TabIndex = 2;
+            this.cboEstudios.SelectedIndexChanged += new System.EventHandler(this.cboEstudios_SelectedIndexChanged);
             // 
             // lblEstudio
             // 
@@ -92,7 +93,7 @@
 
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.ComboBox cboEstudios;
         private System.Windows.Forms.Label lblEstudio;
+        public System.Windows.Forms.ComboBox cboEstudios;
     }
 }
