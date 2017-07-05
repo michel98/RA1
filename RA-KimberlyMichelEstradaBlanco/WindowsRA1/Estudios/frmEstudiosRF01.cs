@@ -13,18 +13,19 @@ namespace WindowsRA1
 {
     public partial class frmEstudiosRF01 : Form
     {
-        
-        
+        public bool validacion = true;
+        public string vartemp;
+        frmModificarEstudio mod;
         public frmEstudiosRF01()
         {
             InitializeComponent();
             
-      
+
         }
         
         private void frmEstudiosRF01_Load(object sender, EventArgs e)
         {
-            
+            mod = new frmModificarEstudio();
         }
         
 
@@ -37,7 +38,6 @@ namespace WindowsRA1
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             
-            frmModificarEstudio mod = new frmModificarEstudio();
             this.Hide();
             mod.ShowDialog();
             this.Close();
@@ -49,7 +49,15 @@ namespace WindowsRA1
         {
 
         }
-        
-        
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            vartemp = cboEstudios.SelectedItem.ToString();
+            this.Hide();
+            mod.ShowDialog();
+            this.Close();
+
+            validacion = false;
+        }
     }
 }

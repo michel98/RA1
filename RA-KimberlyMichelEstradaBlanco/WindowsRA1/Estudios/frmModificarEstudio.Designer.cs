@@ -206,6 +206,7 @@
             this.Name = "frmModificarEstudio";
             this.Text = "Modificar Estudio";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmModificarEstudio_FormClosed);
+            this.Load += new System.EventHandler(this.frmModificarEstudio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

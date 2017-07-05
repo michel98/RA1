@@ -9,12 +9,12 @@ namespace BussinesEntities
     public class EstudiosRF01
     {
 
-        private string Id { get; set; }
-        private string Nombre { get; set; }
-        private string Descripcion { get; set; }
-        private string Categoría { get; set; }
-        private double Costo { get; set; }
-        private bool Estado { get; set; }
+        public string Id { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+        public string Categoría { get; set; }
+        public double Costo { get; set; }
+        public bool Estado { get; set; }
 
 
         public EstudiosRF01(string id, string nombre,string descripcion,string categoria,double costo,bool estado)
