@@ -37,16 +37,14 @@ namespace WindowsRA1
         private void frmModificarEstudio_FormClosed(object sender, FormClosedEventArgs e)
         {
             
-            this.Hide();
-            mod2.ShowDialog();
-            this.Close();
+          
             
         }
        
         
         private void btnaceptar_Click(object sender, EventArgs e)
         {
-            EstudiosBLL guardar
+            
             
             bool ActSus;
             if (rboActivo.Checked)
@@ -61,8 +59,8 @@ namespace WindowsRA1
 
            
             EstudiosRF01 est = new EstudiosRF01(txtId.Text, txtNombre.Text, txtDescripcion.Text, cboCategoria.SelectedItem.ToString(), Convert.ToDouble(txtCosto.Text.ToString()), ActSus);
-            EstudiosBLL metodo = new EstudiosBLL();
-            metodo.agregar(est);
+            EstudiosBLL listaBLL = new EstudiosBLL();
+            listaBLL.agregar(est);
 
             txtId.Clear();
             txtNombre.Clear();

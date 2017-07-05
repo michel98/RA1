@@ -60,6 +60,7 @@
             this.btnaceptar.TabIndex = 24;
             this.btnaceptar.Text = "Aceptar";
             this.btnaceptar.UseVisualStyleBackColor = true;
+            this.btnaceptar.Click += new System.EventHandler(this.btnaceptar_Click);
             // 
             // comboBox1
             // 

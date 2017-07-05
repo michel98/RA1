@@ -21,7 +21,8 @@ namespace WindowsRA1
         public frmEstudiosRF01()
         {
             InitializeComponent();
-            
+         
+           
 
         }
         
@@ -40,26 +41,29 @@ namespace WindowsRA1
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             
-            this.Hide();
+            
             mod.ShowDialog();
-            this.Close();
+            
             
             
         }
 
-        public void cboEstudios_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            vartemp = cboEstudios.SelectedItem.ToString();
+            
             this.Hide();
             mod.ShowDialog();
             this.Close();
 
             validacion = false;
+        }
+
+        private void btnVisualizarEstudios_Click(object sender, EventArgs e)
+        {
+            EstudiosBLL listabll = new EstudiosBLL();
+            dgvEstudios.DataSource=listabll.
         }
     }
 }

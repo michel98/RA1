@@ -15,12 +15,9 @@ namespace BusinessLogicLayer
 
 
         }
-        public string combo() {
-            string valor="";
-            for (int i = 0; i < nueva.Count; i++) {
-                valor = nueva[i].Id;
-            }
-            return valor; 
+
+      
+            
         }
     }
 }

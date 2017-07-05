@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsRA1.Pacientes
+namespace WindowsRA1
 {
-    public partial class frmdatosmedicos : Form
+    public partial class Principal : Form
     {
-        public frmdatosmedicos()
+        public Principal()
         {
             InitializeComponent();
         }
 
-        private void frmdatosmedicos_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnaceptar_Click(object sender, EventArgs e)
+        private void recepciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
