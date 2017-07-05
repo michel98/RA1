@@ -16,5 +16,10 @@ namespace WindowsRA1.Medicos
         {
             InitializeComponent();
         }
+
+        private void btnaceptar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

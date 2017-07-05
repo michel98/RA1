@@ -1,6 +1,6 @@
 ﻿using System;
 using BussinesEntities;
-
+using BusinessLogicLayer;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +14,7 @@ namespace WindowsRA1
 {
     public partial class frmModificarEstudio : Form
     {
+        
         frmEstudiosRF01 mod2= new frmEstudiosRF01();
         List<EstudiosRF01> listaestudios = new List<EstudiosRF01>();
 
@@ -45,7 +46,7 @@ namespace WindowsRA1
         
         private void btnaceptar_Click(object sender, EventArgs e)
         {
-            mod2.cboEstudios.Items.Add(txtNombre.Text);
+            EstudiosBLL guardar
             
             bool ActSus;
             if (rboActivo.Checked)
@@ -60,8 +61,9 @@ namespace WindowsRA1
 
            
             EstudiosRF01 est = new EstudiosRF01(txtId.Text, txtNombre.Text, txtDescripcion.Text, cboCategoria.SelectedItem.ToString(), Convert.ToDouble(txtCosto.Text.ToString()), ActSus);
-            
-            listaestudios.Add(est);
+            EstudiosBLL metodo = new EstudiosBLL();
+            metodo.agregar(est);
+
             txtId.Clear();
             txtNombre.Clear();
             txtDescripcion.Clear();

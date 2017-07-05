@@ -1,5 +1,6 @@
 ﻿using System;
 using BussinesEntities;
+using BusinessLogicLayer;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace WindowsRA1
 {
     public partial class frmEstudiosRF01 : Form
     {
+        
         public bool validacion = true;
         public string vartemp;
         frmModificarEstudio mod;

@@ -61,6 +61,7 @@
             this.btnaceptar.TabIndex = 37;
             this.btnaceptar.Text = "Aceptar";
             this.btnaceptar.UseVisualStyleBackColor = true;
+            this.btnaceptar.Click += new System.EventHandler(this.btnaceptar_Click);
             // 
             // cboArea
             // 
