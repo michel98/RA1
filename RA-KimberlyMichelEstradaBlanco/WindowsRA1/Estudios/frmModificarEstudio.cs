@@ -59,8 +59,7 @@ namespace WindowsRA1
 
            
             EstudiosRF01 est = new EstudiosRF01(txtId.Text, txtNombre.Text, txtDescripcion.Text, cboCategoria.SelectedItem.ToString(), Convert.ToDouble(txtCosto.Text.ToString()), ActSus);
-            EstudiosBLL listaBLL = new EstudiosBLL();
-            listaBLL.agregar(est);
+            listaestudios.Add(est);
 
             txtId.Clear();
             txtNombre.Clear();
@@ -93,6 +92,11 @@ namespace WindowsRA1
                      
                 }
             }
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

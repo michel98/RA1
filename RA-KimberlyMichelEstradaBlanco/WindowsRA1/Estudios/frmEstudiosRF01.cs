@@ -14,7 +14,9 @@ namespace WindowsRA1
 {
     public partial class frmEstudiosRF01 : Form
     {
-        
+        frmModificarEstudio mod2 = new frmModificarEstudio();
+        List<EstudiosRF01> listaestudios = new List<EstudiosRF01>();
+
         public bool validacion = true;
         public string vartemp;
         frmModificarEstudio mod;
@@ -52,18 +54,39 @@ namespace WindowsRA1
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            
-            this.Hide();
-            mod.ShowDialog();
-            this.Close();
 
-            validacion = false;
+            modificar(mod2.txtId.Text);
+
         }
 
+
+
+
+
+
+        public void modificar(string id)
+        {
+           foreach(var EstudiosRF01 in listaestudios)
+            {
+                if (EstudiosRF01.Id==id)
+
+                {
+                    EstudiosRF01.Id = mod2.txtId.Text;
+                    EstudiosRF01.Nombre = mod2.txtNombre.Text;
+                    EstudiosRF01.Descripcion = mod2.txtDescripcion.Text;
+                    EstudiosRF01.Categoría = mod2.cboCategoria.Text;
+                    EstudiosRF01.Costo = (Convert.ToInt32(mod2.txtCosto.Text));
+
+
+
+                      
+
+                }
+            }
+        }
         private void btnVisualizarEstudios_Click(object sender, EventArgs e)
         {
-            EstudiosBLL listabll = new EstudiosBLL();
-            dgvEstudios.DataSource=listabll.
+           
         }
     }
 }

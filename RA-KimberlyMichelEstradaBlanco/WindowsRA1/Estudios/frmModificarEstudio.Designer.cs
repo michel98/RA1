@@ -181,6 +181,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(45, 20);
             this.txtId.TabIndex = 14;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // frmModificarEstudio
             // 
@@ -219,15 +220,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton rboActivo;
-        private System.Windows.Forms.RadioButton rboSuspendido;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtDescripcion;
-        private System.Windows.Forms.TextBox txtCosto;
-        private System.Windows.Forms.ComboBox cboCategoria;
         private System.Windows.Forms.Button btnaceptar;
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtId;
+        public System.Windows.Forms.TextBox txtId;
+        public System.Windows.Forms.RadioButton rboActivo;
+        public System.Windows.Forms.RadioButton rboSuspendido;
+        public System.Windows.Forms.TextBox txtNombre;
+        public System.Windows.Forms.TextBox txtDescripcion;
+        public System.Windows.Forms.TextBox txtCosto;
+        public System.Windows.Forms.ComboBox cboCategoria;
     }
 }
