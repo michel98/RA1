@@ -40,8 +40,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtCedula = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtIDMed = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btncancelar
@@ -149,29 +147,11 @@
             this.txtCedula.Size = new System.Drawing.Size(100, 20);
             this.txtCedula.TabIndex = 40;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(42, 15);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 13);
-            this.label6.TabIndex = 41;
-            this.label6.Text = "ID";
-            // 
-            // txtIDMed
-            // 
-            this.txtIDMed.Location = new System.Drawing.Point(154, 15);
-            this.txtIDMed.Name = "txtIDMed";
-            this.txtIDMed.Size = new System.Drawing.Size(100, 20);
-            this.txtIDMed.TabIndex = 42;
-            // 
             // FrmRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(309, 261);
-            this.Controls.Add(this.txtIDMed);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtCedula);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btncancelar);
@@ -205,7 +185,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtCedula;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtIDMed;
     }
 }

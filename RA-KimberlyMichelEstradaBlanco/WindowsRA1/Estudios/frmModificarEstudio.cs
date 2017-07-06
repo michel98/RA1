@@ -16,7 +16,7 @@ namespace WindowsRA1
     {
         
         frmEstudiosRF01 mod2= new frmEstudiosRF01();
-        List<EstudiosRF01> listaestudios = new List<EstudiosRF01>();
+        List<EstudioRF01> listaestudios = new List<EstudioRF01>();
 
         public frmModificarEstudio()
         {
@@ -58,15 +58,15 @@ namespace WindowsRA1
             }
 
            
-            EstudiosRF01 est = new EstudiosRF01(txtId.Text, txtNombre.Text, txtDescripcion.Text, cboCategoria.SelectedItem.ToString(), Convert.ToDouble(txtCosto.Text.ToString()), ActSus);
-            listaestudios.Add(est);
+            //EstudioRF01 est = new EstudioRF01(txtId.Text, txtNombre.Text, txtDescripcion.Text, cboCategoria.SelectedItem.ToString(), Convert.ToDouble(txtCosto.Text.ToString()), ActSus);
+            //listaestudios.Add(est);
 
-            txtId.Clear();
-            txtNombre.Clear();
-            txtDescripcion.Clear();
-            cboCategoria.SelectedItem = null;
-            txtCosto.Clear();
-            rboSuspendido.Checked=true;
+            //txtId.Clear();
+            //txtNombre.Clear();
+            //txtDescripcion.Clear();
+            //cboCategoria.SelectedItem = null;
+            //txtCosto.Clear();
+            //rboSuspendido.Checked=true;
             
             
             

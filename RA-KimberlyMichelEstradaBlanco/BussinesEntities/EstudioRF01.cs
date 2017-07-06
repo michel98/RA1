@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinesEntities
 {
-    public class EstudiosRF01
+    public class EstudioRF01
     {
 
         public string Id { get; set; }
@@ -17,15 +17,6 @@ namespace BussinesEntities
         public bool Estado { get; set; }
 
 
-        public EstudiosRF01(string id, string nombre,string descripcion,string categoria,double costo,bool estado)
-        {
-            Id = id;
-            Nombre = nombre;
-            Descripcion = descripcion;
-            Categoría = categoria;
-            Costo = costo;
-            Estado = estado;
-        }
 
        
 

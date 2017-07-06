@@ -15,7 +15,7 @@ namespace WindowsRA1
     public partial class frmEstudiosRF01 : Form
     {
         frmModificarEstudio mod2 = new frmModificarEstudio();
-        List<EstudiosRF01> listaestudios = new List<EstudiosRF01>();
+        List<EstudioRF01> listaestudios = new List<EstudioRF01>();
 
         public bool validacion = true;
         public string vartemp;

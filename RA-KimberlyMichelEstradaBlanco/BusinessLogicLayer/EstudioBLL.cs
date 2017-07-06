@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    public class EstudiosBLL
+    public class EstudioBLL
     {
-        List<EstudiosRF01> nueva = new List<EstudiosRF01>();
-        public void agregar(EstudiosRF01 p) {
+        List<EstudioRF01> nueva = new List<EstudioRF01>();
+        public void agregar(EstudioRF01 p) {
             nueva.Add(p);
 
 
