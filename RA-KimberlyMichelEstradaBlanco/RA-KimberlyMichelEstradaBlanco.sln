@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsRA1", "WindowsRA1\WindowsRA1.csproj", "{E2A508F1-B0AE-476B-BE92-173983745405}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{BBAA0893-213D-4D51-8AD0-EE5BA391351A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesEntities", "BussinesEntities\BussinesEntities.csproj", "{7E7BB139-6065-48B3-9482-8C79A62DFC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{663A8589-CA4E-4DFC-9FC6-B3DA6C04E8E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7E7BB139-6065-48B3-9482-8C79A62DFC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E7BB139-6065-48B3-9482-8C79A62DFC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E7BB139-6065-48B3-9482-8C79A62DFC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663A8589-CA4E-4DFC-9FC6-B3DA6C04E8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663A8589-CA4E-4DFC-9FC6-B3DA6C04E8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663A8589-CA4E-4DFC-9FC6-B3DA6C04E8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663A8589-CA4E-4DFC-9FC6-B3DA6C04E8E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
