@@ -18,10 +18,10 @@ namespace BusinessLogicLayer
             //validar que no hay campos vacios
             if (
                 string.IsNullOrEmpty(m.Nombre)
-                || string.IsNullOrEmpty(m.Apellidoos)
+                || string.IsNullOrEmpty(m.Apellidos)
                 || string.IsNullOrEmpty(m.Area)
                 || string.IsNullOrEmpty(m.Esp_O_Cargo)
-                || string.IsNullOrEmpty(m.Ced_Profesional)
+                || string.IsNullOrEmpty(m.Cedula_Profesional)
               )
             {
 
@@ -31,7 +31,7 @@ namespace BusinessLogicLayer
             {
 
                 //validar que el producto no se repita
-                bool isExist = DataAccessLayer.MedicoDAL.consultaPorCedula(m.Ced_Profesional);
+                bool isExist = DataAccessLayer.MedicoDAL.consultaPorCedula(m.Cedula_Profesional);
                 if (isExist)
                 {
                     mensaje = "Medico ya registrado";
@@ -51,6 +51,10 @@ namespace BusinessLogicLayer
                
             }
             return mensaje;
+        }
+
+        public static List<MedicoRF02> visualizar() {
+            return DataAccessLayer.MedicoDAL.consulta();
         }
 
         

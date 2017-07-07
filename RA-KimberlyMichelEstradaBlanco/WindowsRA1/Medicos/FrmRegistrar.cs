@@ -24,28 +24,28 @@ namespace WindowsRA1.Medicos
             MedicoRF02 med = new MedicoRF02();
 
             //llenar con informacion
-            try {
+            //try {
 
                
                 med.Nombre = txtNombreMed.Text;
-                med.Apellidoos = txtApellidoMed.Text;
+                med.Apellidos = txtApellidoMed.Text;
                 med.Area = cboArea.SelectedItem.ToString();
                 med.Esp_O_Cargo = txtEspecCar.Text;
-                med.Ced_Profesional = txtCedula.Text;
-            }
-            catch {
+                med.Cedula_Profesional = txtCedula.Text;
+            //}
+            //catch {
                 
-            }
-
+            //}
                     string mensaje = BusinessLogicLayer.MedicoBLL.insertar(med);
                     if (string.IsNullOrEmpty(mensaje))
                     {
-                        MessageBox.Show("El producto se registro correctamente");
+                        MessageBox.Show("El médico se registro correctamente");
                     }
                     else
                     {
                         MessageBox.Show(mensaje,"Error");
                     }
+
            
 
         }

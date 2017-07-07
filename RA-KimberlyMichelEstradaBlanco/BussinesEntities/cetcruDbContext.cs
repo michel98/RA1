@@ -8,17 +8,19 @@ using System.Threading.Tasks;
 
 namespace BussinesEntities
 {
-    public class MedicosDbContext:DbContext
+    public class cetcruDbContext:DbContext
     {
-        public MedicosDbContext()
-            :base("MedicosDbContext")//buscar cadena de conexion
+        public cetcruDbContext()
+            :base("cetcruDbContext")//buscar cadena de conexion
         {
 
         }
         //adonet
         public DbSet<MedicoRF02> MedicosRF02 { get; set; }
-        public DbSet<EstudioRF01> EstudiosRF01 { get; set; }
-        public DbSet<Paciente> Pacientes { get; set; }
+
+        
+        //public DbSet<EstudioRF01> EstudiosRF01 { get; set; }
+        //public DbSet<Paciente> Pacientes { get; set; }
         
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
