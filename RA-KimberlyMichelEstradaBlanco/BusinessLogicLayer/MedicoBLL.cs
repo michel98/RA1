@@ -9,8 +9,8 @@ namespace BusinessLogicLayer
 {
     public class MedicoBLL
     {
-        
 
+       
         //ahora regresara un mensaje
         public static string insertar(MedicoRF02 m)
         {
@@ -57,6 +57,19 @@ namespace BusinessLogicLayer
             return DataAccessLayer.MedicoDAL.consulta();
         }
 
+        public static List<MedicoRF02> busquedaId(int idmedico) {
+            return DataAccessLayer.MedicoDAL.consultaPorId(idmedico);
+         
+
+        }
+        public static bool validar(bool b) {
+
+            return b;
+            
+
+        }
+        
+        
         
     }
 

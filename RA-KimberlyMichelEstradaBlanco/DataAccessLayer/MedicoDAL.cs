@@ -21,6 +21,11 @@ namespace DataAccessLayer
             return db.MedicosRF02.Where(m => m.Cedula_Profesional == ced).Count() > 0;
         }
 
+        public static List<MedicoRF02> consultaPorId(int Id)
+        {
+            return db.MedicosRF02.Where(idmed => idmed.Id == Id).ToList();
+        }
+
         public static bool insertar(MedicoRF02 m) {
             db.MedicosRF02.Add(m);
             return db.SaveChanges()>0;

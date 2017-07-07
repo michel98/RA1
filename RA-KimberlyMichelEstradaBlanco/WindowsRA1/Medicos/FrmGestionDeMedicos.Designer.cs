@@ -29,12 +29,11 @@
         private void InitializeComponent()
         {
             this.dgvMedicosEstudios = new System.Windows.Forms.DataGridView();
-            this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnVisualizarMed = new System.Windows.Forms.Button();
             this.btnRegistrarMed = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
             this.ID = new System.Windows.Forms.Label();
             this.txtIdBuscar = new System.Windows.Forms.TextBox();
+            this.btnEditar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosEstudios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,22 +43,10 @@
             this.dgvMedicosEstudios.AllowUserToDeleteRows = false;
             this.dgvMedicosEstudios.AllowUserToOrderColumns = true;
             this.dgvMedicosEstudios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMedicosEstudios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Editar});
             this.dgvMedicosEstudios.Location = new System.Drawing.Point(10, 120);
             this.dgvMedicosEstudios.Name = "dgvMedicosEstudios";
-            this.dgvMedicosEstudios.ReadOnly = true;
             this.dgvMedicosEstudios.Size = new System.Drawing.Size(386, 159);
             this.dgvMedicosEstudios.TabIndex = 0;
-            // 
-            // Editar
-            // 
-            this.Editar.HeaderText = "";
-            this.Editar.Name = "Editar";
-            this.Editar.ReadOnly = true;
-            this.Editar.Text = "Editar";
-            this.Editar.UseColumnTextForButtonValue = true;
-            this.Editar.Width = 50;
             // 
             // btnVisualizarMed
             // 
@@ -81,15 +68,6 @@
             this.btnRegistrarMed.UseVisualStyleBackColor = true;
             this.btnRegistrarMed.Click += new System.EventHandler(this.btnRegistrarMed_Click);
             // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(259, 75);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(137, 23);
-            this.btnModificar.TabIndex = 3;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            // 
             // ID
             // 
             this.ID.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -107,15 +85,25 @@
             this.txtIdBuscar.Size = new System.Drawing.Size(137, 20);
             this.txtIdBuscar.TabIndex = 4;
             // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(259, 75);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(137, 23);
+            this.btnEditar.TabIndex = 6;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.Editar_click);
+            // 
             // FrmGestionDeMedicos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(410, 291);
+            this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.ID);
             this.Controls.Add(this.txtIdBuscar);
-            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnRegistrarMed);
             this.Controls.Add(this.btnVisualizarMed);
             this.Controls.Add(this.dgvMedicosEstudios);
@@ -132,9 +120,8 @@
         private System.Windows.Forms.DataGridView dgvMedicosEstudios;
         private System.Windows.Forms.Button btnVisualizarMed;
         private System.Windows.Forms.Button btnRegistrarMed;
-        private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Label ID;
         private System.Windows.Forms.TextBox txtIdBuscar;
-        private System.Windows.Forms.DataGridViewButtonColumn Editar;
+        private System.Windows.Forms.Button btnEditar;
     }
 }

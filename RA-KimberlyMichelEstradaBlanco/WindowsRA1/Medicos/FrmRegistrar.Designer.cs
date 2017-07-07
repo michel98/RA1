@@ -50,6 +50,7 @@
             this.btncancelar.TabIndex = 38;
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // btnaceptar
             // 

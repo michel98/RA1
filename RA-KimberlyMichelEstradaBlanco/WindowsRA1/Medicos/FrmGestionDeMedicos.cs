@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using BusinessLogicLayer;
+using BussinesEntities;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +16,9 @@ namespace WindowsRA1.Medicos
     public partial class FrmGestionDeMedicos : Form
     {
         FrmRegistrar reg = new FrmRegistrar();
+        public static List<MedicoRF02> listatemp;
+        
+
         public FrmGestionDeMedicos()
         {
             InitializeComponent();
@@ -31,8 +35,9 @@ namespace WindowsRA1.Medicos
             reg.ShowDialog();
         }
 
-       
-
-       
+        private void Editar_click(object sender, EventArgs e)
+        {
+            reg.ShowDialog();
+        }
     }
 }
