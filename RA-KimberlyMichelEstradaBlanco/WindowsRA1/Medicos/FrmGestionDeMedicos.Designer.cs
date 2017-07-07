@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.dgvMedicosEstudios = new System.Windows.Forms.DataGridView();
+            this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnVisualizarMed = new System.Windows.Forms.Button();
             this.btnRegistrarMed = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.ID = new System.Windows.Forms.Label();
             this.txtIdBuscar = new System.Windows.Forms.TextBox();
-            this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosEstudios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +51,15 @@
             this.dgvMedicosEstudios.ReadOnly = true;
             this.dgvMedicosEstudios.Size = new System.Drawing.Size(386, 159);
             this.dgvMedicosEstudios.TabIndex = 0;
-            this.dgvMedicosEstudios.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvMedicosEstudios_ColumnHeaderMouseClick);
+            // 
+            // Editar
+            // 
+            this.Editar.HeaderText = "";
+            this.Editar.Name = "Editar";
+            this.Editar.ReadOnly = true;
+            this.Editar.Text = "Editar";
+            this.Editar.UseColumnTextForButtonValue = true;
+            this.Editar.Width = 50;
             // 
             // btnVisualizarMed
             // 
@@ -98,15 +106,6 @@
             this.txtIdBuscar.Name = "txtIdBuscar";
             this.txtIdBuscar.Size = new System.Drawing.Size(137, 20);
             this.txtIdBuscar.TabIndex = 4;
-            // 
-            // Editar
-            // 
-            this.Editar.HeaderText = "";
-            this.Editar.Name = "Editar";
-            this.Editar.ReadOnly = true;
-            this.Editar.Text = "Editar";
-            this.Editar.UseColumnTextForButtonValue = true;
-            this.Editar.Width = 50;
             // 
             // FrmGestionDeMedicos
             // 

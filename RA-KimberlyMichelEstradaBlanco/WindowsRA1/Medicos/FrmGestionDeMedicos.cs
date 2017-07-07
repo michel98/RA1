@@ -31,19 +31,8 @@ namespace WindowsRA1.Medicos
             reg.ShowDialog();
         }
 
-        private void dgvMedicosEstudios_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            reg.ShowDialog();
-        }
+       
 
-        private void dgvMedicosEstudios_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
-        private void dgvMedicosEstudios_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            MessageBox.Show(" hola");
-        }
+       
     }
 }
