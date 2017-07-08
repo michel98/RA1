@@ -16,7 +16,8 @@ namespace WindowsRA1.Medicos
     public partial class FrmGestionDeMedicos : Form
     {
         FrmRegistrar reg = new FrmRegistrar();
-        public static List<MedicoRF02> listatemp;
+        public static List<MedicoRF02> listatemp=new List<MedicoRF02>();
+        public static bool validar = true;
         
 
         public FrmGestionDeMedicos()
@@ -37,6 +38,15 @@ namespace WindowsRA1.Medicos
 
         private void Editar_click(object sender, EventArgs e)
         {
+
+           
+            validar = false;
+
+            
+            listatemp.Add(MedicoBLL.busquedaId(Convert.ToInt32(txtIdBuscar.Text))[0]);
+            
+
+
             reg.ShowDialog();
         }
     }

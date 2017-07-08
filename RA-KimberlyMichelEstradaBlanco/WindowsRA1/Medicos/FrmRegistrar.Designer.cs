@@ -167,6 +167,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmRegistrar";
             this.Text = "Registrar Médico";
+            this.Load += new System.EventHandler(this.FrmRegistrar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

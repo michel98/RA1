@@ -5,6 +5,9 @@ using System.Text;
 using System.Data.Entity;
 using BussinesEntities;
 using System.Threading.Tasks;
+using System.Data.Entity.Infrastructure;
+using System.Data.Entity.Core.Objects;
+using System.Runtime.Remoting.Contexts;
 
 namespace DataAccessLayer
 {
@@ -29,6 +32,18 @@ namespace DataAccessLayer
         public static bool insertar(MedicoRF02 m) {
             db.MedicosRF02.Add(m);
             return db.SaveChanges()>0;
+        }
+
+        //actualizar
+        public static bool actualizar(MedicoRF02 m) {
+            
+            
+               db.MedicosRF02.Attach(m);
+               db.Entry(m).State = EntityState.Modified;//actualizacion
+               return db.SaveChanges() > 0;
+           
+
+
         }
     }
 }

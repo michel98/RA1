@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BussinesEntities
 {
+    
     public class MedicoRF02
     {
+
+
         [Key]
         public int Id { get; set; }
+        
         public string Nombre { get; set; }
         public string Apellidos { get; set; }
         public string Area { get; set; }
