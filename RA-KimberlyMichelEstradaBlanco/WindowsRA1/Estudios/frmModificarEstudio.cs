@@ -15,23 +15,18 @@ namespace WindowsRA1
     public partial class frmModificarEstudio : Form
     {
         
-        frmEstudiosRF01 mod2= new frmEstudiosRF01();
-        List<EstudioRF01> listaestudios = new List<EstudioRF01>();
 
         public frmModificarEstudio()
         {
             InitializeComponent();
-            rboSuspendido.Checked=true;
+            
+            
             
         }
 
         private void btncancelar_Click(object sender, EventArgs e)
         {
           
-            this.Hide();
-            mod2.ShowDialog();
-            
-            this.Close();
         }
        
         private void frmModificarEstudio_FormClosed(object sender, FormClosedEventArgs e)
@@ -44,59 +39,104 @@ namespace WindowsRA1
         
         private void btnaceptar_Click(object sender, EventArgs e)
         {
-            
-            
-            bool ActSus;
+            EstudioRF01 es = new EstudioRF01();
+            bool estado;
             if (rboActivo.Checked)
             {
-
-                ActSus = true;
+                estado = true;
             }
             else
             {
-                ActSus = false;
+                estado = false;
+            }
+            if (!frmEstudiosRF01.validar)
+            {
+
+                //instancia del medico
+
+
+                //llenar con informacion
+                try
+                {
+                    
+
+                    es.Nombre = txtNombre.Text;
+                    es.Descripcion = txtDescripcion.Text;
+                    es.Categoría = cboCategoria.SelectedItem.ToString();
+                    es.Costo = Convert.ToDouble(txtCosto.Text);
+                    es.Estado = estado;
+                    
+                }
+                catch
+                {
+
+                }
+                string mensaje = BusinessLogicLayer.EstudioBLL.insertar(es);
+                if (string.IsNullOrEmpty(mensaje))
+                {
+                    MessageBox.Show("El estudio se registro correctamente");
+                    txtNombre.Text = "";
+                    txtDescripcion.Text = "";
+                    txtCosto.Text = "";
+                    cboCategoria.SelectedItem = null;
+                    rboSuspendido.Checked = false;
+                    rboSuspendido.Checked = true;
+
+                }
+                else
+                {
+                    MessageBox.Show(mensaje, "Error");
+                }
+
+
+            }
+            else
+            {
+                es.Nombre = txtNombre.Text;
+                es.Descripcion = txtDescripcion.Text;
+                es.Categoría = cboCategoria.SelectedItem.ToString();
+                es.Costo = Convert.ToDouble(txtCosto.Text);
+                es.Estado = estado;
+
+                string mensaje = BusinessLogicLayer.EstudioBLL.actualizar(es);
+
+                MessageBox.Show(mensaje);
+
+
+
             }
 
-           
-            //EstudioRF01 est = new EstudioRF01(txtId.Text, txtNombre.Text, txtDescripcion.Text, cboCategoria.SelectedItem.ToString(), Convert.ToDouble(txtCosto.Text.ToString()), ActSus);
-            //listaestudios.Add(est);
-
-            //txtId.Clear();
-            //txtNombre.Clear();
-            //txtDescripcion.Clear();
-            //cboCategoria.SelectedItem = null;
-            //txtCosto.Clear();
-            //rboSuspendido.Checked=true;
-            
-            
-            
         }
 
         private void frmModificarEstudio_Load(object sender, EventArgs e)
         {
-            if (mod2.validacion == false)
+            if (frmEstudiosRF01.validar)
             {
-                for (int i = 0; i < listaestudios.Count(); i++) {
-                    if (listaestudios[i].Nombre == mod2.vartemp)
-                    {
-                        txtId.Text = listaestudios[i].Id.ToString();
-                        txtId.Enabled = false;
-                        txtNombre.Text = listaestudios[i].Nombre.ToString();
-                        txtDescripcion.Text = listaestudios[i].Descripcion.ToString();
-                        txtCosto.Text = listaestudios[i].Costo.ToString();
-
-                    }
-                    else {
-                        MessageBox.Show("Error");
-                    }
-                     
+                txtNombre.Text = frmEstudiosRF01.listaestudios[0].Nombre;
+                txtDescripcion.Text = frmEstudiosRF01.listaestudios[0].Descripcion;
+                txtCosto.Text = frmEstudiosRF01.listaestudios[0].Costo.ToString();
+                cboCategoria.SelectedItem = frmEstudiosRF01.listaestudios[0].Categoría;
+                if (frmEstudiosRF01.listaestudios[0].Estado)
+                {
+                    rboActivo.Checked = true;
+                    rboSuspendido.Checked = false;
+                }
+                else
+                {
+                    rboActivo.Checked = false;
+                    rboSuspendido.Checked = true;
                 }
             }
-        }
+            else {
 
-        private void txtId_TextChanged(object sender, EventArgs e)
-        {
-
+                rboActivo.Checked = false;
+                rboSuspendido.Checked = true;
+            }
         }
     }
+
+     
+
+       
+    
 }

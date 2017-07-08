@@ -41,9 +41,13 @@
             // 
             // dgvpacientes
             // 
+            this.dgvpacientes.AllowUserToAddRows = false;
+            this.dgvpacientes.AllowUserToDeleteRows = false;
+            this.dgvpacientes.AllowUserToOrderColumns = true;
             this.dgvpacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvpacientes.Location = new System.Drawing.Point(25, 123);
             this.dgvpacientes.Name = "dgvpacientes";
+            this.dgvpacientes.ReadOnly = true;
             this.dgvpacientes.Size = new System.Drawing.Size(490, 185);
             this.dgvpacientes.TabIndex = 0;
             // 
@@ -55,6 +59,7 @@
             this.btnvisualizar.TabIndex = 1;
             this.btnvisualizar.Text = "Visualizar Pacientes";
             this.btnvisualizar.UseVisualStyleBackColor = true;
+            this.btnvisualizar.Click += new System.EventHandler(this.btnvisualizar_Click);
             // 
             // btnbuscar
             // 
@@ -64,6 +69,7 @@
             this.btnbuscar.TabIndex = 2;
             this.btnbuscar.Text = "Ver estudios del paciente";
             this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // txtVerEstudios
             // 

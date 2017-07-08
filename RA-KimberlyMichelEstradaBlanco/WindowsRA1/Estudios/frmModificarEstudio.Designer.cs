@@ -41,8 +41,6 @@
             this.cboCategoria = new System.Windows.Forms.ComboBox();
             this.btnaceptar = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -164,24 +162,6 @@
             this.btncancelar.TabIndex = 12;
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
-            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(229, 30);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(21, 13);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "ID ";
-            // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(256, 27);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(45, 20);
-            this.txtId.TabIndex = 14;
-            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // frmModificarEstudio
             // 
@@ -189,8 +169,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(313, 271);
-            this.Controls.Add(this.txtId);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.btnaceptar);
             this.Controls.Add(this.cboCategoria);
@@ -222,8 +200,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnaceptar;
         private System.Windows.Forms.Button btncancelar;
-        private System.Windows.Forms.Label label6;
-        public System.Windows.Forms.TextBox txtId;
         public System.Windows.Forms.RadioButton rboActivo;
         public System.Windows.Forms.RadioButton rboSuspendido;
         public System.Windows.Forms.TextBox txtNombre;

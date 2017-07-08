@@ -45,6 +45,7 @@
             this.dgvMedicosEstudios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMedicosEstudios.Location = new System.Drawing.Point(10, 120);
             this.dgvMedicosEstudios.Name = "dgvMedicosEstudios";
+            this.dgvMedicosEstudios.ReadOnly = true;
             this.dgvMedicosEstudios.Size = new System.Drawing.Size(386, 159);
             this.dgvMedicosEstudios.TabIndex = 0;
             // 

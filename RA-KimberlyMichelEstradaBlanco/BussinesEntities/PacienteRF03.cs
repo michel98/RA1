@@ -6,24 +6,17 @@ using System.Threading.Tasks;
 
 namespace BussinesEntities
 {
-    public class EstudioRF01
+    public class PacienteRF03
     {
-
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public string Descripcion { get; set; }
-        public string Categoría { get; set; }
-        public double Costo { get; set; }
-        public bool Estado { get; set; }
+        public string Apellidos { get; set; }
+        public int Edad { get; set; }
+        public string Sexo { get; set; }
+        public string Lugar_Residencia { get; set; }
 
+        
 
-
-       
-
-
+        
     }
-
-
-
-
 }

@@ -19,8 +19,8 @@ namespace BussinesEntities
         public DbSet<MedicoRF02> MedicosRF02 { get; set; }
 
         
-        //public DbSet<EstudioRF01> EstudiosRF01 { get; set; }
-        //public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<EstudioRF01> EstudiosRF01 { get; set; }
+        public DbSet<PacienteRF03> PacientesRF03 { get; set; }
         
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

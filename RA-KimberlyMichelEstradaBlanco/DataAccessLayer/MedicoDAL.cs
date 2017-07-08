@@ -36,11 +36,23 @@ namespace DataAccessLayer
 
         //actualizar
         public static bool actualizar(MedicoRF02 m) {
+
+
+            //db.MedicosRF02.Attach(m);
+            // db.MedicosRF02.FirstOrDefault(x=> x.Id==m.Id);
+            //db.Entry(m).State = EntityState.Modified;//actualizacion
+            var medicoeditar = new MedicoRF02();
+            medicoeditar = null;
+            medicoeditar=db.MedicosRF02.FirstOrDefault(x => x.Id == m.Id);
+            medicoeditar.Nombre = m.Nombre;
+            medicoeditar.Apellidos = m.Apellidos;
+            medicoeditar.Area = m.Area;
+            medicoeditar.Esp_O_Cargo = m.Esp_O_Cargo;
+            medicoeditar.Cedula_Profesional = m.Cedula_Profesional;
+
+
+            return db.SaveChanges()>0;
             
-            
-               db.MedicosRF02.Attach(m);
-               db.Entry(m).State = EntityState.Modified;//actualizacion
-               return db.SaveChanges() > 0;
            
 
 

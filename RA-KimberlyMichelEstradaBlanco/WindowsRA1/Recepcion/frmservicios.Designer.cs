@@ -31,13 +31,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtserv = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cboSexo = new System.Windows.Forms.ComboBox();
+            this.txtIdPac = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtResidenciaPac = new System.Windows.Forms.TextBox();
+            this.txtEdadPac = new System.Windows.Forms.TextBox();
+            this.txtApellidosPac = new System.Windows.Forms.TextBox();
+            this.txtNomPaciente = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,12 +73,9 @@
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtDiagnostico = new System.Windows.Forms.TextBox();
             this.btnAgregarServicio = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboEstudio = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -104,13 +101,13 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.cboSexo);
+            this.groupBox1.Controls.Add(this.txtIdPac);
             this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtResidenciaPac);
+            this.groupBox1.Controls.Add(this.txtEdadPac);
+            this.groupBox1.Controls.Add(this.txtApellidosPac);
+            this.groupBox1.Controls.Add(this.txtNomPaciente);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -123,12 +120,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Pacientes";
             // 
-            // textBox6
+            // cboSexo
             // 
-            this.textBox6.Location = new System.Drawing.Point(113, 19);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(44, 20);
-            this.textBox6.TabIndex = 13;
+            this.cboSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboSexo.FormattingEnabled = true;
+            this.cboSexo.Items.AddRange(new object[] {
+            "Masculino",
+            "Femenino"});
+            this.cboSexo.Location = new System.Drawing.Point(112, 119);
+            this.cboSexo.Name = "cboSexo";
+            this.cboSexo.Size = new System.Drawing.Size(101, 21);
+            this.cboSexo.TabIndex = 14;
+            // 
+            // txtIdPac
+            // 
+            this.txtIdPac.Location = new System.Drawing.Point(113, 19);
+            this.txtIdPac.Name = "txtIdPac";
+            this.txtIdPac.Size = new System.Drawing.Size(44, 20);
+            this.txtIdPac.TabIndex = 13;
             // 
             // label20
             // 
@@ -139,41 +148,36 @@
             this.label20.TabIndex = 12;
             this.label20.Text = "ID Paciente";
             // 
-            // textBox5
+            // txtResidenciaPac
             // 
-            this.textBox5.Location = new System.Drawing.Point(113, 147);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 9;
+            this.txtResidenciaPac.Location = new System.Drawing.Point(113, 147);
+            this.txtResidenciaPac.Name = "txtResidenciaPac";
+            this.txtResidenciaPac.Size = new System.Drawing.Size(100, 20);
+            this.txtResidenciaPac.TabIndex = 9;
             // 
-            // textBox4
+            // txtEdadPac
             // 
-            this.textBox4.Location = new System.Drawing.Point(113, 119);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 8;
+            this.txtEdadPac.Location = new System.Drawing.Point(113, 93);
+            this.txtEdadPac.Name = "txtEdadPac";
+            this.txtEdadPac.Size = new System.Drawing.Size(100, 20);
+            this.txtEdadPac.TabIndex = 7;
             // 
-            // textBox3
+            // txtApellidosPac
             // 
-            this.textBox3.Location = new System.Drawing.Point(113, 93);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
+            this.txtApellidosPac.Location = new System.Drawing.Point(113, 67);
+            this.txtApellidosPac.Name = "txtApellidosPac";
+            this.txtApellidosPac.Size = new System.Drawing.Size(100, 20);
+            this.txtApellidosPac.TabIndex = 6;
             // 
-            // textBox2
+            // txtNomPaciente
             // 
-            this.textBox2.Location = new System.Drawing.Point(113, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(113, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtNomPaciente.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtNomPaciente.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.txtNomPaciente.Location = new System.Drawing.Point(113, 44);
+            this.txtNomPaciente.Name = "txtNomPaciente";
+            this.txtNomPaciente.Size = new System.Drawing.Size(100, 20);
+            this.txtNomPaciente.TabIndex = 5;
+            this.txtNomPaciente.DoubleClick += new System.EventHandler(this.txtNomPaciente_DoubleClick);
             // 
             // label6
             // 
@@ -341,6 +345,7 @@
             // 
             // cboArea
             // 
+            this.cboArea.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboArea.FormattingEnabled = true;
             this.cboArea.Items.AddRange(new object[] {
             "Tomografía",
@@ -493,36 +498,19 @@
             // txtFecha
             // 
             this.txtFecha.Enabled = false;
-            this.txtFecha.Location = new System.Drawing.Point(443, 464);
+            this.txtFecha.Location = new System.Drawing.Point(392, 414);
             this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(100, 20);
+            this.txtFecha.Size = new System.Drawing.Size(151, 20);
             this.txtFecha.TabIndex = 8;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(400, 467);
+            this.label7.Location = new System.Drawing.Point(349, 418);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(37, 13);
             this.label7.TabIndex = 9;
             this.label7.Text = "Fecha";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(374, 499);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(63, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Diagnóstico";
-            // 
-            // txtDiagnostico
-            // 
-            this.txtDiagnostico.Enabled = false;
-            this.txtDiagnostico.Location = new System.Drawing.Point(443, 496);
-            this.txtDiagnostico.Name = "txtDiagnostico";
-            this.txtDiagnostico.Size = new System.Drawing.Size(100, 20);
-            this.txtDiagnostico.TabIndex = 11;
             // 
             // btnAgregarServicio
             // 
@@ -532,15 +520,16 @@
             this.btnAgregarServicio.TabIndex = 12;
             this.btnAgregarServicio.Text = "Agregar Servicio";
             this.btnAgregarServicio.UseVisualStyleBackColor = true;
+            this.btnAgregarServicio.Click += new System.EventHandler(this.btnAgregarServicio_Click);
             // 
-            // comboBox1
+            // cboEstudio
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(403, 300);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(140, 21);
-            this.comboBox1.TabIndex = 13;
+            this.cboEstudio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboEstudio.FormattingEnabled = true;
+            this.cboEstudio.Location = new System.Drawing.Point(403, 300);
+            this.cboEstudio.Name = "cboEstudio";
+            this.cboEstudio.Size = new System.Drawing.Size(140, 21);
+            this.cboEstudio.TabIndex = 13;
             // 
             // label17
             // 
@@ -551,26 +540,14 @@
             this.label17.TabIndex = 14;
             this.label17.Text = "Estudio";
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(0, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "label18";
-            // 
             // frmservicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(565, 533);
-            this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboEstudio);
             this.Controls.Add(this.btnAgregarServicio);
-            this.Controls.Add(this.txtDiagnostico);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.groupBox5);
@@ -603,11 +580,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtserv;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtResidenciaPac;
+        private System.Windows.Forms.TextBox txtEdadPac;
+        private System.Windows.Forms.TextBox txtApellidosPac;
+        private System.Windows.Forms.TextBox txtNomPaciente;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -639,17 +615,15 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtDiagnostico;
         private System.Windows.Forms.Button btnAgregarServicio;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboEstudio;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtIdPac;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox cboSexo;
     }
 }

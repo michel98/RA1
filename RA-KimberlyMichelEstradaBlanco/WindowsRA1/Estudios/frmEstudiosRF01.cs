@@ -14,12 +14,13 @@ namespace WindowsRA1
 {
     public partial class frmEstudiosRF01 : Form
     {
-        frmModificarEstudio mod2 = new frmModificarEstudio();
-        List<EstudioRF01> listaestudios = new List<EstudioRF01>();
+        
+        public static List<EstudioRF01> listaestudios = new List<EstudioRF01>();
+        frmModificarEstudio regEs = new frmModificarEstudio();
+        public static bool validar = false;
 
-        public bool validacion = true;
-        public string vartemp;
-        frmModificarEstudio mod;
+        
+        
         public frmEstudiosRF01()
         {
             InitializeComponent();
@@ -30,7 +31,7 @@ namespace WindowsRA1
         
         private void frmEstudiosRF01_Load(object sender, EventArgs e)
         {
-            mod = new frmModificarEstudio();
+           
         }
         
 
@@ -42,9 +43,10 @@ namespace WindowsRA1
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            frmModificarEstudio modes = new frmModificarEstudio();
+            modes.ShowDialog();
             
-            
-            mod.ShowDialog();
+           
             
             
             
@@ -55,7 +57,15 @@ namespace WindowsRA1
         private void btnModificar_Click(object sender, EventArgs e)
         {
 
-            modificar(mod2.txtId.Text);
+            validar = true;
+
+
+            listaestudios.Add(EstudioBLL.busquedaId(Convert.ToInt32(txtIdEstudio.Text))[0]);
+
+
+
+            regEs.ShowDialog();
+
 
         }
 
@@ -64,29 +74,10 @@ namespace WindowsRA1
 
 
 
-        public void modificar(string id)
-        {
-           foreach(var EstudiosRF01 in listaestudios)
-            {
-                if (EstudiosRF01.Id==id)
-
-                {
-                    EstudiosRF01.Id = mod2.txtId.Text;
-                    EstudiosRF01.Nombre = mod2.txtNombre.Text;
-                    EstudiosRF01.Descripcion = mod2.txtDescripcion.Text;
-                    EstudiosRF01.Categoría = mod2.cboCategoria.Text;
-                    EstudiosRF01.Costo = (Convert.ToInt32(mod2.txtCosto.Text));
-
-
-
-                      
-
-                }
-            }
-        }
+        
         private void btnVisualizarEstudios_Click(object sender, EventArgs e)
         {
-           
+            dgvEstudios.DataSource = BusinessLogicLayer.EstudioBLL.visualizar();
         }
     }
 }

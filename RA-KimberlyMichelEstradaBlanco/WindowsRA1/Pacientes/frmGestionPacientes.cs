@@ -21,5 +21,16 @@ namespace WindowsRA1.Pacientes
         {
 
         }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            frmestudiospacientes estpac = new frmestudiospacientes();
+            estpac.ShowDialog();
+        }
+
+        private void btnvisualizar_Click(object sender, EventArgs e)
+        {
+            dgvpacientes.DataSource = BusinessLogicLayer.PacienteBLL.visualizar();
+        }
     }
 }
