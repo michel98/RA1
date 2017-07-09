@@ -77,6 +77,7 @@
             this.btnBuscarDetalle.TabIndex = 4;
             this.btnBuscarDetalle.Text = "Ver detalles";
             this.btnBuscarDetalle.UseVisualStyleBackColor = true;
+            this.btnBuscarDetalle.Click += new System.EventHandler(this.btnBuscarDetalle_Click);
             // 
             // frmServiciosAtendidos
             // 

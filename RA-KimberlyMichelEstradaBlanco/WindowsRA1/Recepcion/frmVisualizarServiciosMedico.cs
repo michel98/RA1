@@ -16,5 +16,11 @@ namespace WindowsRA1.Recepcion
         {
             InitializeComponent();
         }
+
+        private void btnImprimirDiagnostico_Click(object sender, EventArgs e)
+        {
+            frmImprimirDiagnostico imp = new frmImprimirDiagnostico();
+            imp.ShowDialog();
+        }
     }
 }

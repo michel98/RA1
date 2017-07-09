@@ -19,7 +19,13 @@ namespace WindowsRA1.Recepcion
 
         private void frmServiciosAtendidos_Load(object sender, EventArgs e)
         {
+            dataGridView1.DataSource = BusinessLogicLayer.ServicioBLL.visualizarnopagados(false);
+        }
 
+        private void btnBuscarDetalle_Click(object sender, EventArgs e)
+        {
+            frmServicioDetalle servdet = new frmServicioDetalle();
+            servdet.ShowDialog();
         }
     }
 }

@@ -85,6 +85,7 @@
             // 
             // txtFechaImpresion
             // 
+            this.txtFechaImpresion.Enabled = false;
             this.txtFechaImpresion.Location = new System.Drawing.Point(475, 289);
             this.txtFechaImpresion.Name = "txtFechaImpresion";
             this.txtFechaImpresion.Size = new System.Drawing.Size(137, 20);
@@ -101,6 +102,7 @@
             // 
             // txtNombreClie
             // 
+            this.txtNombreClie.Enabled = false;
             this.txtNombreClie.Location = new System.Drawing.Point(61, 151);
             this.txtNombreClie.Name = "txtNombreClie";
             this.txtNombreClie.Size = new System.Drawing.Size(551, 20);
@@ -108,6 +110,7 @@
             // 
             // txtApellidosClie
             // 
+            this.txtApellidosClie.Enabled = false;
             this.txtApellidosClie.Location = new System.Drawing.Point(61, 177);
             this.txtApellidosClie.Name = "txtApellidosClie";
             this.txtApellidosClie.Size = new System.Drawing.Size(551, 20);
@@ -124,6 +127,7 @@
             // 
             // txtResClie
             // 
+            this.txtResClie.Enabled = false;
             this.txtResClie.Location = new System.Drawing.Point(61, 235);
             this.txtResClie.Name = "txtResClie";
             this.txtResClie.Size = new System.Drawing.Size(277, 20);
@@ -140,6 +144,7 @@
             // 
             // txtEstudiosPagados
             // 
+            this.txtEstudiosPagados.Enabled = false;
             this.txtEstudiosPagados.Location = new System.Drawing.Point(370, 235);
             this.txtEstudiosPagados.Name = "txtEstudiosPagados";
             this.txtEstudiosPagados.Size = new System.Drawing.Size(242, 20);
@@ -147,10 +152,12 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(61, 296);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(116, 20);
             this.textBox1.TabIndex = 12;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
             // 
@@ -169,6 +176,7 @@
             this.btnImprimir.TabIndex = 14;
             this.btnImprimir.Text = "IMPRIMIR";
             this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // frmImprimirPago
             // 
@@ -192,6 +200,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmImprimirPago";
             this.Text = "Imprimir pago";
+            this.Load += new System.EventHandler(this.frmImprimirPago_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

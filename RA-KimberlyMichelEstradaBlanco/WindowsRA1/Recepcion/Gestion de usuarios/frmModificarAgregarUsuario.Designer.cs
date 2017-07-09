@@ -33,10 +33,9 @@
             this.chkActivo = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.cboFuncion = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -60,7 +59,7 @@
             // chkActivo
             // 
             this.chkActivo.AutoSize = true;
-            this.chkActivo.Location = new System.Drawing.Point(190, 133);
+            this.chkActivo.Location = new System.Drawing.Point(190, 172);
             this.chkActivo.Name = "chkActivo";
             this.chkActivo.Size = new System.Drawing.Size(56, 17);
             this.chkActivo.TabIndex = 2;
@@ -80,22 +79,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(154, 20);
             this.textBox2.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 134);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "ID";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(92, 130);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(50, 20);
-            this.textBox3.TabIndex = 6;
+            this.textBox2.UseSystemPasswordChar = true;
             // 
             // cboFuncion
             // 
@@ -106,7 +90,7 @@
             "Recepcionista",
             "Cajera",
             "Medico"});
-            this.cboFuncion.Location = new System.Drawing.Point(92, 183);
+            this.cboFuncion.Location = new System.Drawing.Point(92, 117);
             this.cboFuncion.Name = "cboFuncion";
             this.cboFuncion.Size = new System.Drawing.Size(154, 21);
             this.cboFuncion.TabIndex = 7;
@@ -114,21 +98,30 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 186);
+            this.label4.Location = new System.Drawing.Point(22, 120);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Funcion:";
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(107, 200);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 9;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // frmModificarAgregarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 235);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cboFuncion);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.chkActivo);
@@ -148,9 +141,8 @@
         private System.Windows.Forms.CheckBox chkActivo;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox cboFuncion;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnAgregar;
     }
 }

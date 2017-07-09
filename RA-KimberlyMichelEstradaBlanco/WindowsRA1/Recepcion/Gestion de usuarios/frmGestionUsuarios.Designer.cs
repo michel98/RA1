@@ -32,6 +32,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificarUsuario = new System.Windows.Forms.Button();
+            this.btnAct = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,33 +55,46 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(24, 185);
+            this.btnAgregar.Location = new System.Drawing.Point(24, 216);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(102, 23);
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar Usuario";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificarUsuario
             // 
-            this.btnModificarUsuario.Location = new System.Drawing.Point(162, 185);
+            this.btnModificarUsuario.Location = new System.Drawing.Point(162, 216);
             this.btnModificarUsuario.Name = "btnModificarUsuario";
             this.btnModificarUsuario.Size = new System.Drawing.Size(102, 23);
             this.btnModificarUsuario.TabIndex = 3;
             this.btnModificarUsuario.Text = "Modificar Usuario";
             this.btnModificarUsuario.UseVisualStyleBackColor = true;
             // 
+            // btnAct
+            // 
+            this.btnAct.Location = new System.Drawing.Point(24, 164);
+            this.btnAct.Name = "btnAct";
+            this.btnAct.Size = new System.Drawing.Size(75, 23);
+            this.btnAct.TabIndex = 4;
+            this.btnAct.Text = "Actualizar";
+            this.btnAct.UseVisualStyleBackColor = true;
+            this.btnAct.Click += new System.EventHandler(this.btnAct_Click);
+            // 
             // frmGestionUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnAct);
             this.Controls.Add(this.btnModificarUsuario);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "frmGestionUsuarios";
             this.Text = "frmGestionUsuarios";
+            this.Load += new System.EventHandler(this.frmGestionUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -93,5 +107,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificarUsuario;
+        private System.Windows.Forms.Button btnAct;
     }
 }

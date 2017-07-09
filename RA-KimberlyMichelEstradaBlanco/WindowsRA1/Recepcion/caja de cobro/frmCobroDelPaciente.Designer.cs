@@ -114,6 +114,7 @@
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(100, 20);
             this.txtTotal.TabIndex = 7;
+            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtEfectivo
             // 
@@ -121,6 +122,9 @@
             this.txtEfectivo.Name = "txtEfectivo";
             this.txtEfectivo.Size = new System.Drawing.Size(100, 20);
             this.txtEfectivo.TabIndex = 8;
+            this.txtEfectivo.Text = "0.0";
+            this.txtEfectivo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEfectivo.TextChanged += new System.EventHandler(this.txtEfectivo_TextChanged);
             // 
             // label4
             // 
@@ -147,6 +151,8 @@
             this.txtCambio.Name = "txtCambio";
             this.txtCambio.Size = new System.Drawing.Size(100, 20);
             this.txtCambio.TabIndex = 11;
+            this.txtCambio.Text = "0.0";
+            this.txtCambio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label6
             // 
@@ -165,6 +171,7 @@
             this.btnPagar.TabIndex = 13;
             this.btnPagar.Text = "Pagar";
             this.btnPagar.UseVisualStyleBackColor = true;
+            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
             // label7
             // 
@@ -183,6 +190,7 @@
             this.btnImprimir.TabIndex = 15;
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // frmCobroDelPaciente
             // 

@@ -113,12 +113,6 @@
     <Compile Include="Pacientes\frmGestionPacientes.Designer.cs">
       <DependentUpon>frmGestionPacientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recepcion\caja de cobro\cobros.cs">
@@ -210,9 +204,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pacientes\frmGestionPacientes.resx">
       <DependentUpon>frmGestionPacientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

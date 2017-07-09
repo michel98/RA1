@@ -108,6 +108,7 @@
             this.btnImprimirDiagnostico.TabIndex = 7;
             this.btnImprimirDiagnostico.Text = "Imprimir diagnostico";
             this.btnImprimirDiagnostico.UseVisualStyleBackColor = true;
+            this.btnImprimirDiagnostico.Click += new System.EventHandler(this.btnImprimirDiagnostico_Click);
             // 
             // checkBox1
             // 

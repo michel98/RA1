@@ -16,5 +16,12 @@ namespace WindowsRA1.Recepcion
         {
             InitializeComponent();
         }
+
+        private void frmServicioDetalle_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = "Juan";
+            textBox2.Text = "Limas";
+            comboBox1.SelectedItem = "Chequeo";
+        }
     }
 }
