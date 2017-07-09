@@ -20,5 +20,11 @@ namespace BusinessLogicLayer
 
 
         }
+        public static List<PacienteRF03> busquedaId(int idpac)
+        {
+            return DataAccessLayer.PacienteDAL.consultaPorId(idpac).ToList();
+
+
+        }
     }
 }

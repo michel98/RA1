@@ -20,14 +20,14 @@ namespace DataAccessLayer
             return db.PacientesRF03.Where(m => m.Nombre == nom).ToList();
         }
 
-        public static List<MedicoRF02> consultaPorId(int Id)
+        public static List<PacienteRF03> consultaPorId(int Id)
         {
-            return db.MedicosRF02.Where(idmed => idmed.Id == Id).ToList();
+            return db.PacientesRF03.Where(idpac => idpac.Id == Id).ToList();
         }
 
-        public static bool insertar(MedicoRF02 m)
+        public static bool insertar(PacienteRF03 m)
         {
-            db.MedicosRF02.Add(m);
+            db.PacientesRF03.Add(m);
             return db.SaveChanges() > 0;
         }
 

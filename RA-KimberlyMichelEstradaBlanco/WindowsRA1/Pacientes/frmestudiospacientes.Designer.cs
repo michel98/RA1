@@ -90,6 +90,7 @@
             this.Controls.Add(this.dgvEstudiosDepac);
             this.Name = "frmestudiospacientes";
             this.Text = "Estudios de los pacientes";
+            this.Load += new System.EventHandler(this.frmestudiospacientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiosDepac)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

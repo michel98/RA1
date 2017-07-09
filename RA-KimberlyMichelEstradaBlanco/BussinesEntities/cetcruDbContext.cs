@@ -22,6 +22,8 @@ namespace BussinesEntities
         public DbSet<EstudioRF01> EstudiosRF01 { get; set; }
         public DbSet<PacienteRF03> PacientesRF03 { get; set; }
         
+        public DbSet<Servicio> Servicios { get; set; }
+        public DbSet<MedicoCanalizador> MedicosCanalizadores { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {   //quita el plural del nombre de las tablas

@@ -52,7 +52,7 @@
             this.btnVisMedCan.TabIndex = 1;
             this.btnVisMedCan.Text = "Visualizar Médicos canalizadores";
             this.btnVisMedCan.UseVisualStyleBackColor = true;
-  
+            this.btnVisMedCan.Click += new System.EventHandler(this.btnVisMedCan_Click);
             // 
             // label1
             // 
@@ -78,6 +78,7 @@
             this.btnVerEstudios.TabIndex = 4;
             this.btnVerEstudios.Text = "Ver estudios solicitados";
             this.btnVerEstudios.UseVisualStyleBackColor = true;
+            this.btnVerEstudios.Click += new System.EventHandler(this.btnVerEstudios_Click);
             // 
             // frmDatosDeMedicoCan
             // 

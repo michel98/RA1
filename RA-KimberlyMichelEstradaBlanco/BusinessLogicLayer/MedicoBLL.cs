@@ -91,10 +91,17 @@ namespace BusinessLogicLayer
          
 
         }
+
+        public static List<MedicoRF02> busquedaNombre(string nom)
+        {
+            return DataAccessLayer.MedicoDAL.consultaPorNombre(nom);
+
+
+        }
         
-        
-        
-        
+
+
+
     }
 
 }

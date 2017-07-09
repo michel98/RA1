@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtserv = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cboSexo = new System.Windows.Forms.ComboBox();
             this.txtIdPac = new System.Windows.Forms.TextBox();
@@ -44,7 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtIdMedCan = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.txtCedMedCan = new System.Windows.Forms.TextBox();
             this.txtApellidoMedCan = new System.Windows.Forms.TextBox();
@@ -53,7 +51,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtMedEst = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.cboArea = new System.Windows.Forms.ComboBox();
             this.txtCedulaMedes = new System.Windows.Forms.TextBox();
@@ -66,11 +64,11 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rboAtendido = new System.Windows.Forms.RadioButton();
+            this.rboNoAtendido = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rboSiPagado = new System.Windows.Forms.RadioButton();
+            this.rboNoPagado = new System.Windows.Forms.RadioButton();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnAgregarServicio = new System.Windows.Forms.Button();
@@ -82,22 +80,6 @@
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID del servicio";
-            // 
-            // txtserv
-            // 
-            this.txtserv.Location = new System.Drawing.Point(125, 43);
-            this.txtserv.Name = "txtserv";
-            this.txtserv.Size = new System.Drawing.Size(100, 20);
-            this.txtserv.TabIndex = 1;
             // 
             // groupBox1
             // 
@@ -226,7 +208,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox8);
+            this.groupBox2.Controls.Add(this.txtIdMedCan);
             this.groupBox2.Controls.Add(this.label21);
             this.groupBox2.Controls.Add(this.txtCedMedCan);
             this.groupBox2.Controls.Add(this.txtApellidoMedCan);
@@ -240,14 +222,13 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Medico Canalizador";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // textBox8
+            // txtIdMedCan
             // 
-            this.textBox8.Location = new System.Drawing.Point(127, 14);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(44, 20);
-            this.textBox8.TabIndex = 15;
+            this.txtIdMedCan.Location = new System.Drawing.Point(127, 14);
+            this.txtIdMedCan.Name = "txtIdMedCan";
+            this.txtIdMedCan.Size = new System.Drawing.Size(44, 20);
+            this.txtIdMedCan.TabIndex = 15;
             // 
             // label21
             // 
@@ -278,6 +259,7 @@
             this.txtNombreMedCan.Name = "txtNombreMedCan";
             this.txtNombreMedCan.Size = new System.Drawing.Size(100, 20);
             this.txtNombreMedCan.TabIndex = 5;
+            this.txtNombreMedCan.DoubleClick += new System.EventHandler(this.txtNombreMedCan_DoubleClick);
             // 
             // label9
             // 
@@ -308,7 +290,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.txtMedEst);
             this.groupBox3.Controls.Add(this.label19);
             this.groupBox3.Controls.Add(this.cboArea);
             this.groupBox3.Controls.Add(this.txtCedulaMedes);
@@ -327,12 +309,12 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Medico de estudios";
             // 
-            // textBox7
+            // txtMedEst
             // 
-            this.textBox7.Location = new System.Drawing.Point(127, 19);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(44, 20);
-            this.textBox7.TabIndex = 14;
+            this.txtMedEst.Location = new System.Drawing.Point(127, 19);
+            this.txtMedEst.Name = "txtMedEst";
+            this.txtMedEst.Size = new System.Drawing.Size(44, 20);
+            this.txtMedEst.TabIndex = 14;
             // 
             // label19
             // 
@@ -383,6 +365,7 @@
             this.txtNombreMedes.Name = "txtNombreMedes";
             this.txtNombreMedes.Size = new System.Drawing.Size(100, 20);
             this.txtNombreMedes.TabIndex = 5;
+            this.txtNombreMedes.DoubleClick += new System.EventHandler(this.txtNombreMedes_DoubleClick);
             // 
             // label12
             // 
@@ -431,8 +414,8 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.radioButton2);
-            this.groupBox4.Controls.Add(this.radioButton1);
+            this.groupBox4.Controls.Add(this.rboAtendido);
+            this.groupBox4.Controls.Add(this.rboNoAtendido);
             this.groupBox4.Location = new System.Drawing.Point(343, 330);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 36);
@@ -440,32 +423,32 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Estado";
             // 
-            // radioButton2
+            // rboAtendido
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(109, 13);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(67, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Atendido";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rboAtendido.AutoSize = true;
+            this.rboAtendido.Location = new System.Drawing.Point(109, 13);
+            this.rboAtendido.Name = "rboAtendido";
+            this.rboAtendido.Size = new System.Drawing.Size(67, 17);
+            this.rboAtendido.TabIndex = 1;
+            this.rboAtendido.TabStop = true;
+            this.rboAtendido.Text = "Atendido";
+            this.rboAtendido.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rboNoAtendido
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(9, 13);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(83, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "No atendido";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rboNoAtendido.AutoSize = true;
+            this.rboNoAtendido.Location = new System.Drawing.Point(9, 13);
+            this.rboNoAtendido.Name = "rboNoAtendido";
+            this.rboNoAtendido.Size = new System.Drawing.Size(83, 17);
+            this.rboNoAtendido.TabIndex = 0;
+            this.rboNoAtendido.TabStop = true;
+            this.rboNoAtendido.Text = "No atendido";
+            this.rboNoAtendido.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.radioButton3);
-            this.groupBox5.Controls.Add(this.radioButton4);
+            this.groupBox5.Controls.Add(this.rboSiPagado);
+            this.groupBox5.Controls.Add(this.rboNoPagado);
             this.groupBox5.Location = new System.Drawing.Point(343, 372);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(94, 36);
@@ -473,27 +456,27 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Pagado";
             // 
-            // radioButton3
+            // rboSiPagado
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(57, 13);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(34, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Si";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rboSiPagado.AutoSize = true;
+            this.rboSiPagado.Location = new System.Drawing.Point(57, 13);
+            this.rboSiPagado.Name = "rboSiPagado";
+            this.rboSiPagado.Size = new System.Drawing.Size(34, 17);
+            this.rboSiPagado.TabIndex = 3;
+            this.rboSiPagado.TabStop = true;
+            this.rboSiPagado.Text = "Si";
+            this.rboSiPagado.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rboNoPagado
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(6, 13);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(39, 17);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "No";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rboNoPagado.AutoSize = true;
+            this.rboNoPagado.Location = new System.Drawing.Point(6, 13);
+            this.rboNoPagado.Name = "rboNoPagado";
+            this.rboNoPagado.Size = new System.Drawing.Size(39, 17);
+            this.rboNoPagado.TabIndex = 2;
+            this.rboNoPagado.TabStop = true;
+            this.rboNoPagado.Text = "No";
+            this.rboNoPagado.UseVisualStyleBackColor = true;
             // 
             // txtFecha
             // 
@@ -526,15 +509,15 @@
             // 
             this.cboEstudio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboEstudio.FormattingEnabled = true;
-            this.cboEstudio.Location = new System.Drawing.Point(403, 300);
+            this.cboEstudio.Location = new System.Drawing.Point(352, 300);
             this.cboEstudio.Name = "cboEstudio";
-            this.cboEstudio.Size = new System.Drawing.Size(140, 21);
+            this.cboEstudio.Size = new System.Drawing.Size(191, 21);
             this.cboEstudio.TabIndex = 13;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(349, 303);
+            this.label17.Location = new System.Drawing.Point(349, 284);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(42, 13);
             this.label17.TabIndex = 14;
@@ -555,8 +538,6 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.txtserv);
-            this.Controls.Add(this.label1);
             this.Name = "frmservicios";
             this.Text = "frmservicios";
             this.Load += new System.EventHandler(this.frmservicios_Load);
@@ -576,9 +557,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtserv;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtResidenciaPac;
         private System.Windows.Forms.TextBox txtEdadPac;
@@ -611,18 +589,18 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rboAtendido;
+        private System.Windows.Forms.RadioButton rboNoAtendido;
+        private System.Windows.Forms.RadioButton rboSiPagado;
+        private System.Windows.Forms.RadioButton rboNoPagado;
         private System.Windows.Forms.Button btnAgregarServicio;
         private System.Windows.Forms.ComboBox cboEstudio;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtIdPac;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtIdMedCan;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtMedEst;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox cboSexo;
     }

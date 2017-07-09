@@ -46,6 +46,7 @@
             // 
             // txtNombreMedCan
             // 
+            this.txtNombreMedCan.Enabled = false;
             this.txtNombreMedCan.Location = new System.Drawing.Point(12, 37);
             this.txtNombreMedCan.Name = "txtNombreMedCan";
             this.txtNombreMedCan.Size = new System.Drawing.Size(341, 20);
@@ -53,6 +54,7 @@
             // 
             // txtApellidosMedCan
             // 
+            this.txtApellidosMedCan.Enabled = false;
             this.txtApellidosMedCan.Location = new System.Drawing.Point(12, 63);
             this.txtApellidosMedCan.Name = "txtApellidosMedCan";
             this.txtApellidosMedCan.Size = new System.Drawing.Size(341, 20);

@@ -12,6 +12,7 @@ namespace WindowsRA1.Pacientes
 {
     public partial class frmGestionPacientes : Form
     {
+        public static int idpac;
         public frmGestionPacientes()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace WindowsRA1.Pacientes
         private void btnbuscar_Click(object sender, EventArgs e)
         {
             frmestudiospacientes estpac = new frmestudiospacientes();
+            idpac = Convert.ToInt32(txtVerEstudios.Text);
             estpac.ShowDialog();
         }
 

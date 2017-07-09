@@ -34,6 +34,11 @@ namespace DataAccessLayer
             return db.SaveChanges()>0;
         }
 
+        public static List<MedicoRF02> consultaPorNombre(string nom)
+        {
+            return db.MedicosRF02.Where(m => m.Nombre == nom).ToList();
+        }
+
         //actualizar
         public static bool actualizar(MedicoRF02 m) {
 

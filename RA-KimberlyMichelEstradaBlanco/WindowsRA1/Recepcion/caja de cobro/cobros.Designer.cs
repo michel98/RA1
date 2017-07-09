@@ -77,6 +77,7 @@
             this.btnCobrar.TabIndex = 4;
             this.btnCobrar.Text = "Cobrar";
             this.btnCobrar.UseVisualStyleBackColor = true;
+            this.btnCobrar.Click += new System.EventHandler(this.btnCobrar_Click);
             // 
             // frmCobros
             // 
@@ -90,6 +91,7 @@
             this.Controls.Add(this.dgvDeudas);
             this.Name = "frmCobros";
             this.Text = "Cobros";
+            this.Load += new System.EventHandler(this.frmCobros_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDeudas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
