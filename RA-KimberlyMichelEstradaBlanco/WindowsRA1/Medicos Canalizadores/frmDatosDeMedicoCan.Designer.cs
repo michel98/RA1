@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDatosDeMedicoCan));
             this.dgvMedicosCan = new System.Windows.Forms.DataGridView();
             this.btnVisMedCan = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -84,14 +85,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(485, 261);
             this.Controls.Add(this.btnVerEstudios);
             this.Controls.Add(this.txtIDMedCanBuscar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnVisMedCan);
             this.Controls.Add(this.dgvMedicosCan);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDatosDeMedicoCan";
-            this.Text = "frmDatosDeMedicoCan";
+            this.Text = "Médicos Canalizadores";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosCan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

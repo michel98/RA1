@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmestudiospacientes));
             this.dgvEstudiosDepac = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombreDelPac = new System.Windows.Forms.TextBox();
@@ -82,12 +83,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(403, 227);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtApellidos);
             this.Controls.Add(this.txtNombreDelPac);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvEstudiosDepac);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmestudiospacientes";
             this.Text = "Estudios de los pacientes";
             this.Load += new System.EventHandler(this.frmestudiospacientes_Load);

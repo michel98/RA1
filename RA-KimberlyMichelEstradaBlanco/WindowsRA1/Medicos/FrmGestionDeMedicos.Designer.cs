@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionDeMedicos));
             this.dgvMedicosEstudios = new System.Windows.Forms.DataGridView();
             this.btnVisualizarMed = new System.Windows.Forms.Button();
             this.btnRegistrarMed = new System.Windows.Forms.Button();
@@ -101,6 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(410, 291);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.ID);
@@ -108,6 +110,7 @@
             this.Controls.Add(this.btnRegistrarMed);
             this.Controls.Add(this.btnVisualizarMed);
             this.Controls.Add(this.dgvMedicosEstudios);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmGestionDeMedicos";
             this.Text = "Gestión de Médicos del centro de estudios";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosEstudios)).EndInit();

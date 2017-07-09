@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVisualizarServiciosMedico));
             this.label1 = new System.Windows.Forms.Label();
             this.dgvServiciosMedico = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
@@ -133,6 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(575, 296);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.checkBox1);
@@ -144,8 +146,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvServiciosMedico);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmVisualizarServiciosMedico";
-            this.Text = "frmVisualizarServiciosMedico";
+            this.Text = "Servicios de medico";
             ((System.ComponentModel.ISupportInitialize)(this.dgvServiciosMedico)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

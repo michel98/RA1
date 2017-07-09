@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRecepcion));
             this.btnEstudios = new System.Windows.Forms.Button();
             this.btnMedEst = new System.Windows.Forms.Button();
             this.btnCobro = new System.Windows.Forms.Button();
@@ -51,7 +52,7 @@
             // 
             // btnMedEst
             // 
-            this.btnMedEst.Location = new System.Drawing.Point(261, 46);
+            this.btnMedEst.Location = new System.Drawing.Point(132, 46);
             this.btnMedEst.Name = "btnMedEst";
             this.btnMedEst.Size = new System.Drawing.Size(94, 56);
             this.btnMedEst.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             // btnCobro
             // 
-            this.btnCobro.Location = new System.Drawing.Point(261, 138);
+            this.btnCobro.Location = new System.Drawing.Point(132, 138);
             this.btnCobro.Name = "btnCobro";
             this.btnCobro.Size = new System.Drawing.Size(94, 56);
             this.btnCobro.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             // btnUsuarios
             // 
-            this.btnUsuarios.Location = new System.Drawing.Point(494, 138);
+            this.btnUsuarios.Location = new System.Drawing.Point(247, 138);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(94, 56);
             this.btnUsuarios.TabIndex = 3;
@@ -91,7 +92,7 @@
             // 
             // btnMedCan
             // 
-            this.btnMedCan.Location = new System.Drawing.Point(494, 46);
+            this.btnMedCan.Location = new System.Drawing.Point(247, 46);
             this.btnMedCan.Name = "btnMedCan";
             this.btnMedCan.Size = new System.Drawing.Size(94, 56);
             this.btnMedCan.TabIndex = 5;
@@ -111,7 +112,7 @@
             // 
             // btnServiciosAt
             // 
-            this.btnServiciosAt.Location = new System.Drawing.Point(261, 242);
+            this.btnServiciosAt.Location = new System.Drawing.Point(132, 242);
             this.btnServiciosAt.Name = "btnServiciosAt";
             this.btnServiciosAt.Size = new System.Drawing.Size(94, 56);
             this.btnServiciosAt.TabIndex = 7;
@@ -121,7 +122,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(494, 242);
+            this.button9.Location = new System.Drawing.Point(247, 242);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(94, 56);
             this.button9.TabIndex = 8;
@@ -133,7 +134,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 433);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ClientSize = new System.Drawing.Size(354, 313);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.btnServiciosAt);
             this.Controls.Add(this.btnServicios);
@@ -143,6 +145,7 @@
             this.Controls.Add(this.btnCobro);
             this.Controls.Add(this.btnMedEst);
             this.Controls.Add(this.btnEstudios);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRecepcion";
             this.Text = "Recepción";
             this.Load += new System.EventHandler(this.frmRecepcion_Load);

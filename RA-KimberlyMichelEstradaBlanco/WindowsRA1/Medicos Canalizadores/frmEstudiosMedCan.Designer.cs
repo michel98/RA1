@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmdatosmedicos));
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombreMedCan = new System.Windows.Forms.TextBox();
             this.txtApellidosMedCan = new System.Windows.Forms.TextBox();
@@ -76,13 +77,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(365, 264);
             this.Controls.Add(this.dgvEstudiosMedico);
             this.Controls.Add(this.txtApellidosMedCan);
             this.Controls.Add(this.txtNombreMedCan);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmdatosmedicos";
-            this.Text = "frmdatosmedicos";
+            this.Text = "Estudios solicitados";
             this.Load += new System.EventHandler(this.frmdatosmedicos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiosMedico)).EndInit();
             this.ResumeLayout(false);

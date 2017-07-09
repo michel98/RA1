@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmModificarAgregarUsuario));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.chkActivo = new System.Windows.Forms.CheckBox();
@@ -118,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(284, 235);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.label4);
@@ -127,8 +129,9 @@
             this.Controls.Add(this.chkActivo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmModificarAgregarUsuario";
-            this.Text = "frmModificarAgregarUsuario";
+            this.Text = "Modificar/Agregar usuario";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmservicios));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cboSexo = new System.Windows.Forms.ComboBox();
             this.txtIdPac = new System.Windows.Forms.TextBox();
@@ -527,6 +528,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(565, 533);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.cboEstudio);
@@ -538,8 +540,9 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmservicios";
-            this.Text = "frmservicios";
+            this.Text = "Servicios";
             this.Load += new System.EventHandler(this.frmservicios_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
