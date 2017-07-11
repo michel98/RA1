@@ -92,7 +92,7 @@
             this.txtDiagnostico.Location = new System.Drawing.Point(305, 170);
             this.txtDiagnostico.Multiline = true;
             this.txtDiagnostico.Name = "txtDiagnostico";
-            this.txtDiagnostico.Size = new System.Drawing.Size(258, 79);
+            this.txtDiagnostico.Size = new System.Drawing.Size(258, 85);
             this.txtDiagnostico.TabIndex = 5;
             // 
             // btnBuscarServicio

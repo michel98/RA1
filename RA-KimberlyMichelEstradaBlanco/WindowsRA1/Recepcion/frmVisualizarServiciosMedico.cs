@@ -30,7 +30,6 @@ namespace WindowsRA1.Recepcion
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
