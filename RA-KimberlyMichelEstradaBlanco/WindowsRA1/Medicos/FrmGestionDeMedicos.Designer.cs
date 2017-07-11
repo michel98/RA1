@@ -108,6 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(410, 291);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.ID);
@@ -117,6 +118,7 @@
             this.Controls.Add(this.dgvMedicosEstudios);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmGestionDeMedicos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestión de Médicos del centro de estudios";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicosEstudios)).EndInit();
             this.ResumeLayout(false);

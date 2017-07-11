@@ -131,6 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(538, 349);
             this.Controls.Add(this.rdbestudios);
             this.Controls.Add(this.label2);
@@ -142,6 +143,7 @@
             this.Controls.Add(this.dgvpacientes);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGestionPacientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestión de pacientes";
             this.Load += new System.EventHandler(this.frmGestionPacientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvpacientes)).EndInit();

@@ -88,6 +88,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(403, 227);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtApellidos);
@@ -96,6 +97,7 @@
             this.Controls.Add(this.dgvEstudiosDepac);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmestudiospacientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estudios de los pacientes";
             this.Load += new System.EventHandler(this.frmestudiospacientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiosDepac)).EndInit();

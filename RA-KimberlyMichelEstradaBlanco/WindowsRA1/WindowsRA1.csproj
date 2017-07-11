@@ -181,6 +181,9 @@
     <Compile Include="Recepcion\Gestion de usuarios\frmModificarAgregarUsuario.Designer.cs">
       <DependentUpon>frmModificarAgregarUsuario.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Estudios\frmEstudiosRF01.aa.resx">
+      <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estudios\frmEstudiosRF01.resx">
       <DependentUpon>frmEstudiosRF01.cs</DependentUpon>
     </EmbeddedResource>

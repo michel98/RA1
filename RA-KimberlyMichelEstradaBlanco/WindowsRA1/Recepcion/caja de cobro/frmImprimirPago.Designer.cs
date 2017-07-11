@@ -223,6 +223,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmImprimirPago";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Imprimir pago";
             this.Load += new System.EventHandler(this.frmImprimirPago_Load);
             this.ResumeLayout(false);

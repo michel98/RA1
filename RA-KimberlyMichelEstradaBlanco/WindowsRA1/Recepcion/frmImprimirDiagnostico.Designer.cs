@@ -58,7 +58,7 @@
             // txtFecha
             // 
             this.txtFecha.Location = new System.Drawing.Point(635, 20);
-            this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(171, 21);
             this.txtFecha.TabIndex = 1;
@@ -76,7 +76,7 @@
             // txtUbicacion
             // 
             this.txtUbicacion.Location = new System.Drawing.Point(635, 53);
-            this.txtUbicacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUbicacion.Margin = new System.Windows.Forms.Padding(4);
             this.txtUbicacion.Name = "txtUbicacion";
             this.txtUbicacion.Size = new System.Drawing.Size(171, 21);
             this.txtUbicacion.TabIndex = 3;
@@ -94,7 +94,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(20, 53);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(383, 21);
             this.textBox1.TabIndex = 5;
@@ -102,7 +102,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(20, 83);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(383, 21);
             this.textBox2.TabIndex = 6;
@@ -110,7 +110,7 @@
             // txtDiagnostico
             // 
             this.txtDiagnostico.Location = new System.Drawing.Point(20, 219);
-            this.txtDiagnostico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiagnostico.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiagnostico.Multiline = true;
             this.txtDiagnostico.Name = "txtDiagnostico";
             this.txtDiagnostico.Size = new System.Drawing.Size(785, 140);
@@ -129,7 +129,7 @@
             // txtEspecialidad
             // 
             this.txtEspecialidad.Location = new System.Drawing.Point(114, 113);
-            this.txtEspecialidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEspecialidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtEspecialidad.Name = "txtEspecialidad";
             this.txtEspecialidad.Size = new System.Drawing.Size(289, 21);
             this.txtEspecialidad.TabIndex = 9;
@@ -157,7 +157,7 @@
             // txtCargo
             // 
             this.txtCargo.Location = new System.Drawing.Point(114, 139);
-            this.txtCargo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCargo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCargo.Name = "txtCargo";
             this.txtCargo.Size = new System.Drawing.Size(289, 21);
             this.txtCargo.TabIndex = 12;
@@ -165,7 +165,7 @@
             // btnAceptarImpresion
             // 
             this.btnAceptarImpresion.Location = new System.Drawing.Point(381, 369);
-            this.btnAceptarImpresion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAceptarImpresion.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptarImpresion.Name = "btnAceptarImpresion";
             this.btnAceptarImpresion.Size = new System.Drawing.Size(100, 26);
             this.btnAceptarImpresion.TabIndex = 13;
@@ -177,6 +177,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(823, 410);
             this.Controls.Add(this.btnAceptarImpresion);
             this.Controls.Add(this.txtCargo);
@@ -194,8 +195,9 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmImprimirDiagnostico";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Imprimir diagnóstico";
             this.ResumeLayout(false);
             this.PerformLayout();

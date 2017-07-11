@@ -226,6 +226,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCobroDelPaciente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cobros";
             this.Load += new System.EventHandler(this.frmCobroDelPaciente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
