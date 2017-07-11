@@ -47,6 +47,7 @@
             // 
             // btnVisMedCan
             // 
+            this.btnVisMedCan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVisMedCan.Location = new System.Drawing.Point(12, 29);
             this.btnVisMedCan.Name = "btnVisMedCan";
             this.btnVisMedCan.Size = new System.Drawing.Size(200, 23);
@@ -58,21 +59,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(258, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(72, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "ID Médico";
             // 
             // txtIDMedCanBuscar
             // 
+            this.txtIDMedCanBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIDMedCanBuscar.Location = new System.Drawing.Point(258, 31);
             this.txtIDMedCanBuscar.Name = "txtIDMedCanBuscar";
-            this.txtIDMedCanBuscar.Size = new System.Drawing.Size(56, 20);
+            this.txtIDMedCanBuscar.Size = new System.Drawing.Size(56, 21);
             this.txtIDMedCanBuscar.TabIndex = 3;
             // 
             // btnVerEstudios
             // 
+            this.btnVerEstudios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerEstudios.Location = new System.Drawing.Point(320, 29);
             this.btnVerEstudios.Name = "btnVerEstudios";
             this.btnVerEstudios.Size = new System.Drawing.Size(153, 23);

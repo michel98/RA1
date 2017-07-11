@@ -45,6 +45,7 @@
             // 
             // btncancelar
             // 
+            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.Location = new System.Drawing.Point(182, 205);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(75, 23);
@@ -55,6 +56,7 @@
             // 
             // btnaceptar
             // 
+            this.btnaceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaceptar.Location = new System.Drawing.Point(48, 205);
             this.btnaceptar.Name = "btnaceptar";
             this.btnaceptar.Size = new System.Drawing.Size(75, 23);
@@ -66,33 +68,37 @@
             // cboArea
             // 
             this.cboArea.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboArea.FormattingEnabled = true;
             this.cboArea.Items.AddRange(new object[] {
             "Tomografía",
             "Radiografía",
             "Ultrasonido"});
-            this.cboArea.Location = new System.Drawing.Point(154, 106);
+            this.cboArea.Location = new System.Drawing.Point(182, 108);
             this.cboArea.Name = "cboArea";
             this.cboArea.Size = new System.Drawing.Size(100, 21);
             this.cboArea.TabIndex = 36;
             // 
             // txtEspecCar
             // 
-            this.txtEspecCar.Location = new System.Drawing.Point(154, 138);
+            this.txtEspecCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEspecCar.Location = new System.Drawing.Point(182, 140);
             this.txtEspecCar.Name = "txtEspecCar";
             this.txtEspecCar.Size = new System.Drawing.Size(100, 20);
             this.txtEspecCar.TabIndex = 35;
             // 
             // txtApellidoMed
             // 
-            this.txtApellidoMed.Location = new System.Drawing.Point(154, 71);
+            this.txtApellidoMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidoMed.Location = new System.Drawing.Point(182, 73);
             this.txtApellidoMed.Name = "txtApellidoMed";
             this.txtApellidoMed.Size = new System.Drawing.Size(100, 20);
             this.txtApellidoMed.TabIndex = 34;
             // 
             // txtNombreMed
             // 
-            this.txtNombreMed.Location = new System.Drawing.Point(154, 41);
+            this.txtNombreMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreMed.Location = new System.Drawing.Point(182, 43);
             this.txtNombreMed.Name = "txtNombreMed";
             this.txtNombreMed.Size = new System.Drawing.Size(100, 20);
             this.txtNombreMed.TabIndex = 33;
@@ -100,51 +106,57 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(42, 141);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
+            this.label4.Size = new System.Drawing.Size(127, 13);
             this.label4.TabIndex = 29;
             this.label4.Text = "Especialidad o Cargo";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(42, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.Size = new System.Drawing.Size(33, 13);
             this.label3.TabIndex = 28;
             this.label3.Text = "Area";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(42, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 27;
             this.label2.Text = "Apellidos";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(42, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 26;
             this.label1.Text = "Nombre";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(42, 174);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 13);
+            this.label5.Size = new System.Drawing.Size(113, 13);
             this.label5.TabIndex = 39;
             this.label5.Text = "Cedula Profesional";
             // 
             // txtCedula
             // 
-            this.txtCedula.Location = new System.Drawing.Point(154, 167);
+            this.txtCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCedula.Location = new System.Drawing.Point(182, 169);
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(100, 20);
             this.txtCedula.TabIndex = 40;

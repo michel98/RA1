@@ -54,6 +54,7 @@
             // 
             // btnvisualizar
             // 
+            this.btnvisualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnvisualizar.Location = new System.Drawing.Point(48, 26);
             this.btnvisualizar.Name = "btnvisualizar";
             this.btnvisualizar.Size = new System.Drawing.Size(131, 23);
@@ -64,6 +65,7 @@
             // 
             // btnbuscar
             // 
+            this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbuscar.Location = new System.Drawing.Point(329, 26);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(174, 23);
@@ -74,6 +76,7 @@
             // 
             // txtVerEstudios
             // 
+            this.txtVerEstudios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVerEstudios.Location = new System.Drawing.Point(282, 28);
             this.txtVerEstudios.Name = "txtVerEstudios";
             this.txtVerEstudios.Size = new System.Drawing.Size(41, 20);
@@ -82,18 +85,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(279, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 13);
+            this.label1.Size = new System.Drawing.Size(154, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Ingrese el ID del paciente";
             // 
             // rdbresid
             // 
             this.rdbresid.AutoSize = true;
+            this.rdbresid.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbresid.Location = new System.Drawing.Point(178, 66);
             this.rdbresid.Name = "rdbresid";
-            this.rdbresid.Size = new System.Drawing.Size(118, 17);
+            this.rdbresid.Size = new System.Drawing.Size(137, 17);
             this.rdbresid.TabIndex = 5;
             this.rdbresid.TabStop = true;
             this.rdbresid.Text = "Lugar de residencia";
@@ -102,18 +107,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(103, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(65, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Filtrar por:";
             // 
             // rdbestudios
             // 
             this.rdbestudios.AutoSize = true;
+            this.rdbestudios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbestudios.Location = new System.Drawing.Point(178, 89);
             this.rdbestudios.Name = "rdbestudios";
-            this.rdbestudios.Size = new System.Drawing.Size(159, 17);
+            this.rdbestudios.Size = new System.Drawing.Size(188, 17);
             this.rdbestudios.TabIndex = 7;
             this.rdbestudios.TabStop = true;
             this.rdbestudios.Text = "Fecha de ultimo(s) estudio(s)";

@@ -48,16 +48,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombre:";
             // 
             // txtNombreDelPac
             // 
             this.txtNombreDelPac.Enabled = false;
-            this.txtNombreDelPac.Location = new System.Drawing.Point(65, 21);
+            this.txtNombreDelPac.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreDelPac.Location = new System.Drawing.Point(64, 22);
             this.txtNombreDelPac.Name = "txtNombreDelPac";
             this.txtNombreDelPac.Size = new System.Drawing.Size(88, 20);
             this.txtNombreDelPac.TabIndex = 2;
@@ -65,7 +67,8 @@
             // txtApellidos
             // 
             this.txtApellidos.Enabled = false;
-            this.txtApellidos.Location = new System.Drawing.Point(265, 21);
+            this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidos.Location = new System.Drawing.Point(264, 22);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(126, 20);
             this.txtApellidos.TabIndex = 3;
@@ -73,9 +76,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(207, 24);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(196, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(62, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Apellidos:";
             // 

@@ -48,33 +48,37 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 13);
+            this.label1.Size = new System.Drawing.Size(154, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Servicios aún no pagados";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(308, 26);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(257, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(93, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "ID del servicio:";
             // 
             // txtIDServPagar
             // 
-            this.txtIDServPagar.Location = new System.Drawing.Point(391, 23);
+            this.txtIDServPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDServPagar.Location = new System.Drawing.Point(366, 16);
             this.txtIDServPagar.Name = "txtIDServPagar";
             this.txtIDServPagar.Size = new System.Drawing.Size(81, 20);
             this.txtIDServPagar.TabIndex = 3;
             // 
             // btnCobrar
             // 
-            this.btnCobrar.Location = new System.Drawing.Point(478, 21);
+            this.btnCobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCobrar.Location = new System.Drawing.Point(462, 16);
             this.btnCobrar.Name = "btnCobrar";
-            this.btnCobrar.Size = new System.Drawing.Size(55, 23);
+            this.btnCobrar.Size = new System.Drawing.Size(71, 23);
             this.btnCobrar.TabIndex = 4;
             this.btnCobrar.Text = "Cobrar";
             this.btnCobrar.UseVisualStyleBackColor = true;

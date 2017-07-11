@@ -52,6 +52,7 @@
             // 
             // btnVisualizarMed
             // 
+            this.btnVisualizarMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVisualizarMed.Location = new System.Drawing.Point(12, 46);
             this.btnVisualizarMed.Name = "btnVisualizarMed";
             this.btnVisualizarMed.Size = new System.Drawing.Size(169, 23);
@@ -62,6 +63,7 @@
             // 
             // btnRegistrarMed
             // 
+            this.btnRegistrarMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarMed.Location = new System.Drawing.Point(12, 75);
             this.btnRegistrarMed.Name = "btnRegistrarMed";
             this.btnRegistrarMed.Size = new System.Drawing.Size(169, 23);
@@ -74,14 +76,16 @@
             // 
             this.ID.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.ID.AutoSize = true;
-            this.ID.Location = new System.Drawing.Point(256, 31);
+            this.ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ID.Location = new System.Drawing.Point(215, 22);
             this.ID.Name = "ID";
-            this.ID.Size = new System.Drawing.Size(136, 13);
+            this.ID.Size = new System.Drawing.Size(183, 15);
             this.ID.TabIndex = 5;
             this.ID.Text = "Inserte Id de datos a editar:";
             // 
             // txtIdBuscar
             // 
+            this.txtIdBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdBuscar.Location = new System.Drawing.Point(259, 49);
             this.txtIdBuscar.Name = "txtIdBuscar";
             this.txtIdBuscar.Size = new System.Drawing.Size(137, 20);
@@ -89,6 +93,7 @@
             // 
             // btnEditar
             // 
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.Location = new System.Drawing.Point(259, 75);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(137, 23);
