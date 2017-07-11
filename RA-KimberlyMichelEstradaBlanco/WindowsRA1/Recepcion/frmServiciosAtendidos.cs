@@ -27,5 +27,10 @@ namespace WindowsRA1.Recepcion
             frmServicioDetalle servdet = new frmServicioDetalle();
             servdet.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

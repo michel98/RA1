@@ -45,9 +45,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 13);
+            this.label1.Size = new System.Drawing.Size(150, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Servicios asignados";
             // 
@@ -62,15 +63,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 173);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.Size = new System.Drawing.Size(88, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Id de servicio:";
             // 
             // txtIdServicioBuscar
             // 
-            this.txtIdServicioBuscar.Location = new System.Drawing.Point(91, 170);
+            this.txtIdServicioBuscar.Location = new System.Drawing.Point(106, 170);
             this.txtIdServicioBuscar.Name = "txtIdServicioBuscar";
             this.txtIdServicioBuscar.Size = new System.Drawing.Size(100, 20);
             this.txtIdServicioBuscar.TabIndex = 3;
@@ -78,9 +80,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(222, 173);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
+            this.label3.Size = new System.Drawing.Size(78, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Diagnostico:";
             // 
@@ -94,7 +97,8 @@
             // 
             // btnBuscarServicio
             // 
-            this.btnBuscarServicio.Location = new System.Drawing.Point(91, 196);
+            this.btnBuscarServicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarServicio.Location = new System.Drawing.Point(106, 196);
             this.btnBuscarServicio.Name = "btnBuscarServicio";
             this.btnBuscarServicio.Size = new System.Drawing.Size(100, 23);
             this.btnBuscarServicio.TabIndex = 6;
@@ -103,6 +107,7 @@
             // 
             // btnImprimirDiagnostico
             // 
+            this.btnImprimirDiagnostico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimirDiagnostico.Location = new System.Drawing.Point(436, 261);
             this.btnImprimirDiagnostico.Name = "btnImprimirDiagnostico";
             this.btnImprimirDiagnostico.Size = new System.Drawing.Size(127, 23);
@@ -114,15 +119,17 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(12, 271);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(68, 17);
+            this.checkBox1.Size = new System.Drawing.Size(76, 17);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Atendido";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Location = new System.Drawing.Point(305, 261);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(125, 23);
@@ -149,6 +156,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmVisualizarServiciosMedico";
             this.Text = "Servicios de medico";
+            this.Load += new System.EventHandler(this.frmVisualizarServiciosMedico_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvServiciosMedico)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

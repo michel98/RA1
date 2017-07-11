@@ -22,5 +22,10 @@ namespace WindowsRA1.Recepcion
             frmImprimirDiagnostico imp = new frmImprimirDiagnostico();
             imp.ShowDialog();
         }
+
+        private void frmVisualizarServiciosMedico_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

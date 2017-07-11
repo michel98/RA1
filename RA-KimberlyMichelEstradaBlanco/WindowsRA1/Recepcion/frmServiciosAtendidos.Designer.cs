@@ -48,31 +48,35 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 31);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 13);
+            this.label1.Size = new System.Drawing.Size(180, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Servicios en atencion";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(178, 31);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(260, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(96, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Id del servicio";
             // 
             // txtIdServicioDeta
             // 
-            this.txtIdServicioDeta.Location = new System.Drawing.Point(256, 28);
+            this.txtIdServicioDeta.Location = new System.Drawing.Point(362, 9);
             this.txtIdServicioDeta.Name = "txtIdServicioDeta";
             this.txtIdServicioDeta.Size = new System.Drawing.Size(39, 20);
             this.txtIdServicioDeta.TabIndex = 3;
             // 
             // btnBuscarDetalle
             // 
-            this.btnBuscarDetalle.Location = new System.Drawing.Point(301, 26);
+            this.btnBuscarDetalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarDetalle.Location = new System.Drawing.Point(298, 35);
             this.btnBuscarDetalle.Name = "btnBuscarDetalle";
             this.btnBuscarDetalle.Size = new System.Drawing.Size(103, 23);
             this.btnBuscarDetalle.TabIndex = 4;

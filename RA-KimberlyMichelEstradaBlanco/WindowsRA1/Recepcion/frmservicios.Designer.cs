@@ -96,7 +96,8 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(24, 89);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(24, 39);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(233, 176);
             this.groupBox1.TabIndex = 2;
@@ -127,7 +128,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(8, 19);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(63, 13);
+            this.label20.Size = new System.Drawing.Size(74, 13);
             this.label20.TabIndex = 12;
             this.label20.Text = "ID Paciente";
             // 
@@ -167,7 +168,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(7, 152);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 13);
+            this.label6.Size = new System.Drawing.Size(119, 13);
             this.label6.TabIndex = 4;
             this.label6.Text = "Lugar de residencia";
             // 
@@ -176,7 +177,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(8, 119);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 13);
+            this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 3;
             this.label5.Text = "Sexo";
             // 
@@ -185,7 +186,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(7, 70);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "Apellidos";
             // 
@@ -194,7 +195,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(8, 93);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(36, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Edad";
             // 
@@ -203,7 +204,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(7, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Nombre";
             // 
@@ -217,7 +218,8 @@
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Location = new System.Drawing.Point(298, 89);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(298, 39);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(233, 122);
             this.groupBox2.TabIndex = 3;
@@ -236,7 +238,7 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(10, 19);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(114, 13);
+            this.label21.Size = new System.Drawing.Size(135, 13);
             this.label21.TabIndex = 13;
             this.label21.Text = "ID Médico Canalizador";
             // 
@@ -267,7 +269,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(7, 69);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 13);
+            this.label9.Size = new System.Drawing.Size(58, 13);
             this.label9.TabIndex = 2;
             this.label9.Text = "Apellidos";
             // 
@@ -276,7 +278,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(6, 99);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(95, 13);
+            this.label10.Size = new System.Drawing.Size(113, 13);
             this.label10.TabIndex = 1;
             this.label10.Text = "Cedula Profesional";
             // 
@@ -285,7 +287,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(7, 46);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 13);
+            this.label11.Size = new System.Drawing.Size(50, 13);
             this.label11.TabIndex = 0;
             this.label11.Text = "Nombre";
             // 
@@ -303,7 +305,8 @@
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.label15);
             this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Location = new System.Drawing.Point(24, 287);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(24, 237);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(233, 176);
             this.groupBox3.TabIndex = 4;
@@ -322,7 +325,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(8, 21);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(113, 13);
+            this.label19.Size = new System.Drawing.Size(134, 13);
             this.label19.TabIndex = 11;
             this.label19.Text = "ID Médico de estudios";
             // 
@@ -373,7 +376,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(7, 156);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(95, 13);
+            this.label12.Size = new System.Drawing.Size(113, 13);
             this.label12.TabIndex = 4;
             this.label12.Text = "Cedula Profesional";
             // 
@@ -382,7 +385,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(8, 123);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(113, 13);
+            this.label13.Size = new System.Drawing.Size(134, 13);
             this.label13.TabIndex = 3;
             this.label13.Text = "Especialiadad o Cargo";
             // 
@@ -391,7 +394,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(7, 74);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(49, 13);
+            this.label14.Size = new System.Drawing.Size(58, 13);
             this.label14.TabIndex = 2;
             this.label14.Text = "Apellidos";
             // 
@@ -400,7 +403,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(8, 97);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(29, 13);
+            this.label15.Size = new System.Drawing.Size(33, 13);
             this.label15.TabIndex = 1;
             this.label15.Text = "Area";
             // 
@@ -409,7 +412,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(7, 51);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(44, 13);
+            this.label16.Size = new System.Drawing.Size(50, 13);
             this.label16.TabIndex = 0;
             this.label16.Text = "Nombre";
             // 
@@ -417,7 +420,8 @@
             // 
             this.groupBox4.Controls.Add(this.rboAtendido);
             this.groupBox4.Controls.Add(this.rboNoAtendido);
-            this.groupBox4.Location = new System.Drawing.Point(343, 330);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(308, 237);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 36);
             this.groupBox4.TabIndex = 6;
@@ -429,7 +433,7 @@
             this.rboAtendido.AutoSize = true;
             this.rboAtendido.Location = new System.Drawing.Point(109, 13);
             this.rboAtendido.Name = "rboAtendido";
-            this.rboAtendido.Size = new System.Drawing.Size(67, 17);
+            this.rboAtendido.Size = new System.Drawing.Size(75, 17);
             this.rboAtendido.TabIndex = 1;
             this.rboAtendido.TabStop = true;
             this.rboAtendido.Text = "Atendido";
@@ -440,7 +444,7 @@
             this.rboNoAtendido.AutoSize = true;
             this.rboNoAtendido.Location = new System.Drawing.Point(9, 13);
             this.rboNoAtendido.Name = "rboNoAtendido";
-            this.rboNoAtendido.Size = new System.Drawing.Size(83, 17);
+            this.rboNoAtendido.Size = new System.Drawing.Size(94, 17);
             this.rboNoAtendido.TabIndex = 0;
             this.rboNoAtendido.TabStop = true;
             this.rboNoAtendido.Text = "No atendido";
@@ -450,7 +454,8 @@
             // 
             this.groupBox5.Controls.Add(this.rboSiPagado);
             this.groupBox5.Controls.Add(this.rboNoPagado);
-            this.groupBox5.Location = new System.Drawing.Point(343, 372);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Location = new System.Drawing.Point(307, 279);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(94, 36);
             this.groupBox5.TabIndex = 7;
@@ -462,7 +467,7 @@
             this.rboSiPagado.AutoSize = true;
             this.rboSiPagado.Location = new System.Drawing.Point(57, 13);
             this.rboSiPagado.Name = "rboSiPagado";
-            this.rboSiPagado.Size = new System.Drawing.Size(34, 17);
+            this.rboSiPagado.Size = new System.Drawing.Size(36, 17);
             this.rboSiPagado.TabIndex = 3;
             this.rboSiPagado.TabStop = true;
             this.rboSiPagado.Text = "Si";
@@ -473,7 +478,7 @@
             this.rboNoPagado.AutoSize = true;
             this.rboNoPagado.Location = new System.Drawing.Point(6, 13);
             this.rboNoPagado.Name = "rboNoPagado";
-            this.rboNoPagado.Size = new System.Drawing.Size(39, 17);
+            this.rboNoPagado.Size = new System.Drawing.Size(41, 17);
             this.rboNoPagado.TabIndex = 2;
             this.rboNoPagado.TabStop = true;
             this.rboNoPagado.Text = "No";
@@ -482,7 +487,8 @@
             // txtFecha
             // 
             this.txtFecha.Enabled = false;
-            this.txtFecha.Location = new System.Drawing.Point(392, 414);
+            this.txtFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFecha.Location = new System.Drawing.Point(347, 319);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(151, 20);
             this.txtFecha.TabIndex = 8;
@@ -490,17 +496,19 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(349, 418);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(304, 323);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 13);
+            this.label7.Size = new System.Drawing.Size(42, 13);
             this.label7.TabIndex = 9;
             this.label7.Text = "Fecha";
             // 
             // btnAgregarServicio
             // 
-            this.btnAgregarServicio.Location = new System.Drawing.Point(24, 498);
+            this.btnAgregarServicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarServicio.Location = new System.Drawing.Point(372, 416);
             this.btnAgregarServicio.Name = "btnAgregarServicio";
-            this.btnAgregarServicio.Size = new System.Drawing.Size(108, 23);
+            this.btnAgregarServicio.Size = new System.Drawing.Size(171, 39);
             this.btnAgregarServicio.TabIndex = 12;
             this.btnAgregarServicio.Text = "Agregar Servicio";
             this.btnAgregarServicio.UseVisualStyleBackColor = true;
@@ -509,8 +517,9 @@
             // cboEstudio
             // 
             this.cboEstudio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboEstudio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboEstudio.FormattingEnabled = true;
-            this.cboEstudio.Location = new System.Drawing.Point(352, 300);
+            this.cboEstudio.Location = new System.Drawing.Point(307, 205);
             this.cboEstudio.Name = "cboEstudio";
             this.cboEstudio.Size = new System.Drawing.Size(191, 21);
             this.cboEstudio.TabIndex = 13;
@@ -518,9 +527,10 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(349, 284);
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(304, 189);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(42, 13);
+            this.label17.Size = new System.Drawing.Size(49, 13);
             this.label17.TabIndex = 14;
             this.label17.Text = "Estudio";
             // 
@@ -529,7 +539,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(565, 533);
+            this.ClientSize = new System.Drawing.Size(565, 468);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.cboEstudio);
             this.Controls.Add(this.btnAgregarServicio);
